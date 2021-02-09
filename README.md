@@ -13,14 +13,14 @@ Contient le virtuoso utilisé par l'étude (remplacer 127.0.0.1 par le nom ou l'
 
 L'image docker utilisée est la suivante : https://hub.docker.com/r/openlink/virtuoso-opensource-7
 
-- Les paramètres sont réglés principalement dans le fichier `virtuoso.ini` : https://github.com/abes-esr/abes-labo-movies/blob/main/tool-virtuoso/volumes/database/virtuoso.ini
-- Ces paramètres critiques `NumberOfBuffers` et `MaxDirtyBuffers` peuvent être réglés ici : https://github.com/abes-esr/abes-labo-movies/blob/main/tool-virtuoso/volumes/database/virtuoso.ini#L110-L114
+- Les paramètres sont réglés principalement dans le fichier `virtuoso.ini` : https://github.com/abes-esr/abes-labo-movies/blob/main/virtuoso/virtuoso-movies.ini
+- Ces paramètres critiques `NumberOfBuffers` et `MaxDirtyBuffers` peuvent être réglés ici : https://github.com/abes-esr/abes-labo-movies/blob/main/virtuoso/virtuoso-movies.ini#L110-L114
 
 Remarque : une fois un paramètre modifié, il est nécessaire de relancer le conteneur docker pour que le paramètre soit pris en compte.
 
 Pour lancer/créer le conteneur docker virtuoso (en initialisant le mot de passe admin une première fois) :
 ```
-cd /home/devel/abes-labo-movies/tool-virtuoso/0
+cd /home/devel/abes-labo-movies/virtuoso/
 cp .env-dist .env
 # modifier .env et ajuster le mot de passe souhaité
 docker-compose up -d
@@ -44,7 +44,7 @@ Contient le neo4j utilisé par l'étude (remplacer 127.0.0.1 par le nom ou l'IP 
 
 Pour lancer/créer le conteneur docker neo4j (en initialisant le mot de passe admin une première fois) :
 ```
-cd /home/devel/abes-labo-movies/tool-neo4j/
+cd /home/devel/abes-labo-movies/neo4j/
 cp .env-dist .env
 # modifier .env et ajuster le mot de passe souhaité
 docker-compose up -d
