@@ -10,7 +10,7 @@ services:
       - 7474:7474 # interface web du backoffice
       - 7687:7687 # api du backoffice (bolt)
     volumes:
-      - ./volumes/data:/data
+      - ./data:/data
     environment:
       - NEO4J_AUTH # valeur secrete définie dans .env
 #      - NEO4J_dbms_allow__upgrade=true
