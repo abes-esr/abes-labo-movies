@@ -60,10 +60,10 @@ Pour stopper le conteneur docker neo4j :
 docker-compose stop
 ```
 
-## tool-graphdb
+## graphdb
 
 FIXME
 
-## tool-wikibase
+## wikibase
 
 FIXME voir si on part sur une installation locale ou une installation saas
