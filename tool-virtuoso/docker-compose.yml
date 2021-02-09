@@ -5,6 +5,7 @@ services:
   movies-virtuoso:
     image: openlink/virtuoso-opensource-7:7.2
     container_name: movies-virtuoso
+    restart: unless-stopped
     environment:
       - DBA_PASSWORD # valeur secrete définie dans .env
       - DAV_PASSWORD # valeur secrete dérinie dans .env
