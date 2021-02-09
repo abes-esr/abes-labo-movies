@@ -36,7 +36,7 @@ Pour stopper le conteneur docker virtuoso :
 docker-compose stop
 ```
 
-## neo4j
+## tool-neo4j
 
 Contient le neo4j utilisé par l'étude (remplacer 127.0.0.1 par le nom ou l'IP du serveur utilisé par l'étude).
 
@@ -60,10 +60,29 @@ Pour stopper le conteneur docker neo4j :
 docker-compose stop
 ```
 
-## graphdb
+## tool-graphdb
 
 FIXME
 
-## wikibase
+## tool-wikibase
 
 FIXME voir si on part sur une installation locale ou une installation saas
+
+## Commandes docker pratiques
+
+Pour lancer tous les outils d'un coup :
+```
+cd /home/devel/abes-labo-movies/
+docker-compose -f tool-virtuoso/docker-compose.yml -f tool-neo4j/docker-compose.yml up -d
+```
+
+Pour voir les logs de tous les outils d'un coup :
+```
+cd /home/devel/abes-labo-movies/
+docker-compose -f tool-virtuoso/docker-compose.yml -f tool-neo4j/docker-compose.yml logs --tail=100
+```
+Pour stopper tous les outils d'un coup :
+```
+cd /home/devel/abes-labo-movies/
+docker-compose -f tool-virtuoso/docker-compose.yml -f tool-neo4j/docker-compose.yml stop
+```
