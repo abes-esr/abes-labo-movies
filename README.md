@@ -4,7 +4,7 @@ Depôt contenant les configurations et documentations des outils utilisés pour 
 
 En bref, cette étude interne à l'Abes vise à chercher comment modéliser au mieux la vie des établissements de l'ESR.
 
-## tool-virtuoso
+## virtuoso
 
 Contient le virtuoso utilisé par l'étude (remplacer 127.0.0.1 par le nom ou l'IP du serveur utilisé par l'étude).
 
@@ -36,7 +36,7 @@ Pour stopper le conteneur docker virtuoso :
 docker-compose stop
 ```
 
-## tool-neo4j
+## neo4j
 
 Contient le neo4j utilisé par l'étude (remplacer 127.0.0.1 par le nom ou l'IP du serveur utilisé par l'étude).
 
