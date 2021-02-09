@@ -20,7 +20,7 @@ Remarque : une fois un paramètre modifié, il est nécessaire de relancer le co
 
 Pour lancer/créer le conteneur docker virtuoso (en initialisant le mot de passe admin une première fois) :
 ```
-cd /home/devel/abes-labo-movies/tool-virtuoso/
+cd /home/devel/abes-labo-movies/tool-virtuoso/0
 cp .env-dist .env
 # modifier .env et ajuster le mot de passe souhaité
 docker-compose up -d
@@ -67,22 +67,3 @@ FIXME
 ## tool-wikibase
 
 FIXME voir si on part sur une installation locale ou une installation saas
-
-## Commandes docker pratiques
-
-Pour lancer tous les outils d'un coup :
-```
-cd /home/devel/abes-labo-movies/
-docker-compose -f tool-virtuoso/docker-compose.yml -f tool-neo4j/docker-compose.yml up -d
-```
-
-Pour voir les logs de tous les outils d'un coup :
-```
-cd /home/devel/abes-labo-movies/
-docker-compose -f tool-virtuoso/docker-compose.yml -f tool-neo4j/docker-compose.yml logs --tail=100
-```
-Pour stopper tous les outils d'un coup :
-```
-cd /home/devel/abes-labo-movies/
-docker-compose -f tool-virtuoso/docker-compose.yml -f tool-neo4j/docker-compose.yml stop
-```
