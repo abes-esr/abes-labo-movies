@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+
+  movies-virtuoso:
+    image: openlink/virtuoso-opensource-7:7.2
+    container_name: movies-virtuoso
+    environment:
+      - DBA_PASSWORD # valeur secrete définie dans .env
+      - DAV_PASSWORD # valeur secrete dérinie dans .env
+    ports:
+      #- 1111:1111 # ODBC, JDBC, ADO.Net, OLE-DB, iSQL
+      - 8890:8890 # le point d'accès http du sparql endpoint
+    volumes:
+      - ./volumes/database/:/database/

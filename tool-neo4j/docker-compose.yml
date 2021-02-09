@@ -12,8 +12,7 @@ services:
     volumes:
       - ./volumes/data:/data
     environment:
-      - NEO4J_AUTH=none
-#      - NEO4J_AUTH=neo4j/secret
+      - NEO4J_AUTH # valeur secrete définie dans .env
 #      - NEO4J_dbms_allow__upgrade=true
       - NEO4J_dbms_connector_http_advertised__address=:7474
       - NEO4J_dbms_connector_bolt_advertised__address=:7687
