@@ -9,8 +9,12 @@ services:
     environment:
       - DBA_PASSWORD # valeur secrete définie dans .env
       - DAV_PASSWORD # valeur secrete dérinie dans .env
+      - VIRTUOSO_INI_FILE=/virtuoso-movies.ini
     ports:
-      #- 1111:1111 # ODBC, JDBC, ADO.Net, OLE-DB, iSQL
+      - 1111:1111 # ODBC, JDBC, ADO.Net, OLE-DB, iSQL
       - 8890:8890 # le point d'accès http du sparql endpoint
     volumes:
-      - ./volumes/database/:/database/
+      - ./virtuoso-movies.ini:/virtuoso-movies.ini
+      - ./database/:/database/
+    entrypoint: /bin/bash -c "rm -f /database/virtuoso.ini && exec /virtuoso-entrypoint.sh"
+
