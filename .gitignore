@@ -1,3 +1,6 @@
 .env
 virtuoso/database/
 neo4j/data/
+graphdb/free-edition/*.zip
+graphdb/graphdb-data/
+

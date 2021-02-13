@@ -62,7 +62,31 @@ docker-compose stop
 
 ## graphdb
 
-FIXME
+Contient le graphdb utilisé par l'étude (remplacer 127.0.0.1 par le nom ou l'IP du serveur utilisé par l'étude).
+
+- URL du backoffice de GrapDB : http://127.0.0.1:7200
+
+Pour lancer/créer le conteneur docker graphdb :
+- il est nécessaire de télécharger le zip du code de la free-edition depuis le site web https://www.ontotext.com/products/graphdb/graphdb-free/ en s'inscrivant sur le formulaire.
+- il faut ensuite déposer le zip dans le répertoire `/home/devel/abes-labo-movies/graphdb/free-edition/`
+- ensuite il faut builder et lancer le conteneur de cette manière :
+```
+cd /home/devel/abes-labo-movies/graphdb/
+ls /home/devel/abes-labo-movies/graphdb/free-edition/graphdb-free-9.6.0-dist.zip # c'est ici que le zip doit être présent
+# la commande suivant va builder l'image docker et créer un conteneur en se basant sur cette image
+docker-compose up -d
+```
+
+Pour regarder les logs systèmes du conteneur docker graphdb (100 dernières lignes) :
+```
+docker-compose logs --tail=100
+```
+
+Pour stopper le conteneur docker graphdb :
+```
+docker-compose stop
+```
+
 
 ## wikibase
 

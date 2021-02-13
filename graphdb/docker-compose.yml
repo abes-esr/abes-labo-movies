@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+
+  movies-graphdb:
+    image: ontotext/graphdb:9.6.0-free
+    build:
+      context: ./free-edition
+      args:
+        version: 9.6.0
+        edition: free
+    container_name: movies-graphdb
+    restart: unless-stopped
+    ports:
+      - 7200:7200
+    volumes:
+      - ./graphdb-data/:/opt/graphdb/home/
