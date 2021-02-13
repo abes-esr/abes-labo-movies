@@ -5,7 +5,7 @@ Depôt contenant les configurations et documentations des outils utilisés pour 
 En bref, cette étude interne à l'Abes vise à chercher comment modéliser au mieux la vie des établissements de l'ESR.
 
 4 outils sont testés :
-- [Virtuoso](./#Virtuoso)
+- [Virtuoso](./README.md#Virtuoso)
 
 ## Virtuoso
 
