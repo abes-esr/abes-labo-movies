@@ -6,6 +6,9 @@ En bref, cette étude interne à l'Abes vise à chercher comment modéliser au m
 
 4 outils sont testés :
 - [Virtuoso](./README.md#Virtuoso)
+- [Neo4J](./README.md#Neo4J)
+- [GraphDB](./README.md#GraphDB)
+- [Wikibase](./README.md#Wikibase)
 
 ## Virtuoso
 
