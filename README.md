@@ -2,7 +2,7 @@
 
 Depôt contenant les configurations et documentations des outils utilisés pour l'étude labo MOVies (début 2021).
 
-En bref, cette étude interne à l'Abes vise à chercher comment modéliser au mieux la vie des établissements de l'ESR.
+En bref, cette étude interne à l'Abes vise à chercher comment modéliser au mieux la vie des établissements de l'ESR en s'attardant sur la vie des établissements expérimentaux. 
 
 4 outils sont testés :
 - [Virtuoso](./README.md#Virtuoso)
