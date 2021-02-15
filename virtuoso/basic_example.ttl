@@ -1,0 +1,27 @@
+@prefix mov: <http://www.abes.fr/vocabularies/movies#> .
+
+# Etablissements
+mov:coaz_epe 
+	a mov:EPE ; 
+	mov:nom "Université Côte d'Azur" .
+mov:coaz_uni 
+	a mov:Universite ; 
+	mov:nom "Université Côte d'Azur" ; 
+	mov:estComposanteSupremeDe mov:coaz_epe.
+mov:coaz_obs 
+	a mov:Universite ; 
+	mov:nom "Observatoire Côte d'Azur" .
+
+# Relations entre établissements
+mov:coaz_uni 
+	mov:estComposanteSupremeDe mov:coaz_epe .
+
+# Evénements
+mov:coaz_epe_creation a mov:EtabCreation ; mov:cree mov:coaz_epe ; mov:date "2020" .
+mov:coaz_obs_integration 	a mov:EtabIntegration ; 
+							mov:IntegrationType mov:integrationComposante ; 
+							mov:integrationFrom mov:coaz_obs ; 
+							mov:integrationTo mov:coaz_epe ;
+							mov:date "2020" .
+
+
