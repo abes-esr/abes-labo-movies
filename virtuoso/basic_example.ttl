@@ -6,8 +6,7 @@ mov:coaz_epe
 	mov:nom "Université Côte d'Azur" .
 mov:coaz_uni 
 	a mov:Universite ; 
-	mov:nom "Université Côte d'Azur" ; 
-	mov:estComposanteSupremeDe mov:coaz_epe.
+	mov:nom "Université Côte d'Azur" .
 mov:coaz_obs 
 	a mov:Universite ; 
 	mov:nom "Observatoire Côte d'Azur" .
