@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  movies-cron:
+    build: .
+    container_name: movies-cron
+    restart: unless-stopped
+    volumes:
+      - /data:/data
+    environment:
+      - GIT_REPO
+      - DATA_OUTPUT_DIR
+      - DATA_TMP_DIR
+      - BATCH_SIZE
+      - NEO4J_BASE_URL
+      - NEO4J_USER
+      - NEO4J_PASSWORD
