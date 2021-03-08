@@ -5,14 +5,12 @@
 IO_ERROR=3
 SCRIPT_ERROR=5
 
-if [ ! -d "$DATA_TMP_DIR" ]; then
-    git clone "$GIT_REPO" "$DATA_TMP_DIR"
-else
-    git -C "$DATA_TMP_DIR" pull || rm -rf "$DATA_TMP_DIR" && git clone "$GIT_REPO" "$DATA_TMP_DIR"
-fi
+DATA_OUTPUT_DIR=/shared_data/
+DATA_TMP_DIR=/temp_data/
 
-rm -rf "$DATA_OUTPUT_DIR" || exit $IO_ERROR
-cp -r "$DATA_TMP_DIR"/* "$DATA_OUTPUT_DIR" || exit $IO_ERROR
+(git -C "$DATA_TMP_DIR" pull || rm -rf "$DATA_OUTPUT_DIR*" && git clone "$GIT_REPO" "$DATA_TMP_DIR") && \
+rm -rf "$DATA_OUTPUT_DIR*" && \
+cp -r "$DATA_TMP_DIR"* "$DATA_OUTPUT_DIR" || exit $IO_ERROR
 
 echo "MATCH (n) DETACH DELETE n" | /scripts/load-data-to-neo4j.sh \
     && /scripts/load-data-to-neo4j.sh "$DATA_OUTPUT_DIR"/data/*cypher || exit $SCRIPT_ERROR
