@@ -1,7 +1,8 @@
 FROM alpine:3.13
 
-RUN mkdir $$DATA_OUTPUT_DIR
 RUN apk add git curl jq bash
+
+RUN mkdir /shared_data && mkdir /temp_data
 
 COPY tasks /etc/cron.d/tasks
 COPY scripts /scripts
