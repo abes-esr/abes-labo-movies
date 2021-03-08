@@ -1,17 +1,41 @@
 version: '3'
 
+volumes:
+  movies_shared_data:
+    name: shared_data
+
+networks:
+  cron-neo4j-network:
+    name: cron-neo4j-network
+
 services:
   movies-cron:
     build: .
     container_name: movies-cron
     restart: unless-stopped
     volumes:
-      - /data:/data
+      - movies_shared_data:/shared_data
+    networks:
+      - cron-neo4j-network
     environment:
       - GIT_REPO
-      - DATA_OUTPUT_DIR
-      - DATA_TMP_DIR
-      - BATCH_SIZE
       - NEO4J_BASE_URL
-      - NEO4J_USER
-      - NEO4J_PASSWORD
+      - NEO4J_AUTH
+  
+  movies-neo4j:
+    image: neo4j:4.2.3
+    container_name: movies-neo4j
+    restart: unless-stopped
+    ports:
+      - 7474:7474 # interface web du backoffice
+      - 7687:7687 # api du backoffice (bolt)
+    volumes:
+      - ./data:/data
+      - movies_shared_data:/shared_data:ro
+    networks:
+      - cron-neo4j-network
+    environment:
+      - NEO4J_AUTH
+      - NEO4JLABS_PLUGINS=["apoc", "graph-data-science"]
+
+
