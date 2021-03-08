@@ -17,9 +17,10 @@ IO_ERROR=3
 PAYLOAD_SERIALIZATION_ERROR=4
 
 BATCH_SIZE="${BATCH_SIZE:=100000}"
+NEO4J_AUTH="${NEO4J_AUTH:=neo4j/s3cr3t}"
 NEO4J_BASE_URL="${NEO4J_BASE_URL:=http://localhost:7474}"
-NEO4J_USER="${NEO4J_USER:=neo4j}"
-NEO4J_PASSWORD="${NEO4J_USER:=s3cr3t}"
+NEO4J_USER="${NEO4J_AUTH%/*}"
+NEO4J_PASSWORD="${NEO4J_AUTH#*/}"
 
 # Produit à partir d'une suite d'instructions cypher (une instruction par ligne) une charge utile au format JSON 
 # https://neo4j.com/docs/http-api/current/actions/query-format/
@@ -43,13 +44,13 @@ send_payload() {
     --request POST \
     -H "Content-Type: application/json" \
     -d @- \
-    $NEO4J_BASE_URL/db/neo4j/tx/commit >/dev/null || exit $NETWORK_ERROR
+    $NEO4J_BASE_URL/db/neo4j/tx/commit || exit $NETWORK_ERROR
 }
 
 if [ -p /dev/stdin ]; then
     # Batch process n lines of a file
     # Taken from https://stackoverflow.com/a/41268405
-    while mapfile -t -n $BATCH_SIZE ary && ((${#ary[@]})); do # mapfile might cause issues with some Docker images
+    while mapfile -t -n $BATCH_SIZE ary && ((${#ary[@]})); do
         payload=$(serialize_cypher_statements "${ary[@]}")
         send_payload "$payload"
     done < /dev/stdin
@@ -60,7 +61,7 @@ do
     if [ "${file: -7}" = ".cypher" ]; then
         # Batch process n lines of a file
         # Taken from https://stackoverflow.com/a/41268405
-        while mapfile -t -n $BATCH_SIZE ary && ((${#ary[@]})); do # mapfile might cause issues with some Docker images
+        while mapfile -t -n $BATCH_SIZE ary && ((${#ary[@]})); do
             payload=$(serialize_cypher_statements "${ary[@]}")
             send_payload "$payload"
         done < "$file" || exit $IO_ERROR
