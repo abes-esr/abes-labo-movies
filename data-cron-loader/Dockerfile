@@ -8,7 +8,6 @@ COPY tasks /etc/cron.d/tasks
 COPY scripts /scripts
 RUN chmod -R +x /scripts
 
-RUN chmod 0744 /etc/cron.d/tasks
 RUN crontab /etc/cron.d/tasks
 
-CMD ["crond", "-f"]
+ENTRYPOINT ["crond", "-f"]
