@@ -1,1 +1,1 @@
-0 0 * * * root /scripts/reload-data-from-git.sh
+* * * * * /scripts/reload-data-from-git.sh
