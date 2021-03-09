@@ -1,7 +1,19 @@
 version: '3'
 
 services:
-
+  movies-cron:
+    build: ./data-cron-loader
+    container_name: movies-cron
+    restart: unless-stopped
+    volumes:
+      - ./volumes/shared-data-to-load:/shared-data-to-load
+    depends_on:
+      - "movies-neo4j"
+    environment:
+      - GIT_REPO
+      - NEO4J_BASE_URL
+      - NEO4J_AUTH
+  
   movies-neo4j:
     image: neo4j:4.2.3
     container_name: movies-neo4j
@@ -9,13 +21,11 @@ services:
     ports:
       - 7474:7474 # interface web du backoffice
       - 7687:7687 # api du backoffice (bolt)
+    expose:
+      - "7474"
     volumes:
-      - ./data:/data
+      - ./volumes/neo4j-database:/data
+      - ./volumes/shared-data-to-load:/shared-data-to-load:ro
     environment:
-      - NEO4J_AUTH # valeur secrete définie dans .env
-#      - NEO4J_dbms_allow__upgrade=true
-
-      # plugins pas forcément nécessaires (héritages de sudoc21)
-      # https://neo4j.com/labs/apoc/4.1/introduction/
-      # https://neo4j.com/docs/graph-data-science/current/introduction/
+      - NEO4J_AUTH
       - NEO4JLABS_PLUGINS=["apoc", "graph-data-science"]
