@@ -1,1 +1,1 @@
-* * * * * /scripts/reload-data-from-git.sh
+0 0 * * * /scripts/reload-data-from-git.sh
