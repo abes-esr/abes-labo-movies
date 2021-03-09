@@ -8,7 +8,7 @@ SCRIPT_ERROR=5
 DATA_OUTPUT_DIR=/shared_data/
 DATA_TMP_DIR=/temp_data/
 
-(git -C "$DATA_TMP_DIR" pull || rm -rf "$DATA_OUTPUT_DIR*" && git clone "$GIT_REPO" "$DATA_TMP_DIR") && \
+git -C "$DATA_TMP_DIR" pull || (rm -rf "$DATA_TMP_DIR*" && git clone "$GIT_REPO" "$DATA_TMP_DIR") && \
 rm -rf "$DATA_OUTPUT_DIR*" && \
 cp -r "$DATA_TMP_DIR"* "$DATA_OUTPUT_DIR" || exit $IO_ERROR
 
