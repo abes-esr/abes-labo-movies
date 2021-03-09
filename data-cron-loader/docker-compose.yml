@@ -6,7 +6,7 @@ services:
     container_name: movies-cron
     restart: unless-stopped
     volumes:
-      - ./shared_data:/shared_data
+      - ./volumes/shared-data-to-load:/shared-data-to-load
     depends_on:
       - "movies-neo4j"
     environment:
@@ -24,8 +24,8 @@ services:
     expose:
       - "7474"
     volumes:
-      - ./data:/data
-      - ./shared_data:/shared_data:ro
+      - ./volumes/neo4j-database:/data
+      - ./volumes/shared-data-to-load:/shared-data-to-load:ro
     environment:
       - NEO4J_AUTH
       - NEO4JLABS_PLUGINS=["apoc", "graph-data-science"]

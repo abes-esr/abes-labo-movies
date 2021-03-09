@@ -5,8 +5,8 @@
 IO_ERROR=3
 SCRIPT_ERROR=5
 
-DATA_OUTPUT_DIR=/shared_data/
-DATA_TMP_DIR=/temp_data/
+DATA_OUTPUT_DIR=/shared-data-to-load/
+DATA_TMP_DIR=/temp-shared-data-to-load/
 
 git -C "$DATA_TMP_DIR" pull || (rm -rf "$DATA_TMP_DIR*" && git clone "$GIT_REPO" "$DATA_TMP_DIR") && \
 rm -rf "$DATA_OUTPUT_DIR*" && \

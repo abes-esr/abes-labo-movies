@@ -2,7 +2,7 @@ FROM alpine:3.13
 
 RUN apk add git curl jq bash
 
-RUN mkdir /shared_data && mkdir /temp_data
+RUN mkdir /shared-data-to-load && mkdir /temp-shared-data-to-load
 
 COPY tasks /etc/cron.d/tasks
 COPY scripts /scripts
