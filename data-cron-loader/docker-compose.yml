@@ -9,10 +9,8 @@ services:
       - ./shared_data:/shared_data
     depends_on:
       - "movies-neo4j"
-    environment:
-      - GIT_REPO
-      - NEO4J_BASE_URL
-      - NEO4J_AUTH
+    env_file:
+      .env
   
   movies-neo4j:
     image: neo4j:4.2.3
