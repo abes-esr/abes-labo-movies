@@ -90,7 +90,24 @@ FIXME
 
 ## Wikibase
 
-FIXME voir si on part sur une installation locale ou une installation saas
+Une instance SaaS est disponible ici : https://abes-labo-movies.wiki.opencura.com/wiki/Main_Page (merci [WBStack](https://www.wbstack.com/))
+
+En local nous avons également une instance pour l'étude via docker :
+
+- L'URL du wikibase : FIXME
+
+(remplacer 127.0.0.1 par le nom ou l'IP du serveur utilisé par l'étude).
+
+### Installation
+
+Pour lancer/créer les conteneurs docker wikibase :
+```
+cd /home/devel/abes-labo-movies/wikibase/
+cp .env-dist .env
+# modifier .env et ajuster les variables (dont le mot de passe)
+docker-compose up -d
+```
+
 
 
 ## Aide docker
