@@ -6,41 +6,40 @@ services:
     links:
       - mysql
     ports:
-    # CONFIG - Change the 8181 here to expose Wikibase & MediaWiki on a different port
-     - "8181:80"
+      # CONFIG - Change the 8181 here to expose Wikibase & MediaWiki on a different port
+      - "8181:80"
     volumes:
-      - ./mediawiki-images-data:/var/www/html/images
-      - ./quickstatements-data:/quickstatements/data
+      - ./volumes/mediawiki-images-data:/var/www/html/images
+      - ./volumes/quickstatements-data:/quickstatements/data
     depends_on:
-    - mysql
-    - elasticsearch
+      - mysql
+      - elasticsearch
     restart: unless-stopped
     networks:
       default:
         aliases:
-         - wikibase.svc
-         # CONFIG - Add your real wikibase hostname here, only for internal names and when NOT terminating SSL outside the container.
+          - wikibase.svc
+          # CONFIG - Add your real wikibase hostname here, only for internal names and when NOT terminating SSL outside the container.
     environment:
       - DB_SERVER=mysql.svc:3306
       - MW_ELASTIC_HOST=elasticsearch.svc
       - MW_ELASTIC_PORT=9200
-      # CONFIG - Change the default values in .env
+      - MW_SITE_NAME
+      - MW_SITE_LANG
       - MW_ADMIN_NAME
       - MW_ADMIN_PASS
       - MW_ADMIN_EMAIL
       - MW_WG_SECRET_KEY
-      # CONFIG - Change the default values in .env
       - DB_USER
       - DB_PASS
       - DB_NAME
-      - QS_PUBLIC_SCHEME_HOST_AND_PORT
 
 
   mysql:
     image: mariadb:10.3
     restart: unless-stopped
     volumes:
-      - ./mediawiki-mysql-data:/var/lib/mysql
+      - ./volumes/mediawiki-mysql-data:/var/lib/mysql
     environment:
       - MYSQL_RANDOM_ROOT_PASSWORD=yes
       # CONFIG - Change the default values in .env
@@ -50,36 +49,38 @@ services:
     networks:
       default:
         aliases:
-         - mysql.svc
+          - mysql.svc
 
 
   wdqs-frontend:
     image: wikibase/wdqs-frontend:latest
     restart: unless-stopped
     ports:
-    # CONFIG - Change the 8282 here to expose the Query Service UI on a different port
-     - "8282:80"
+      # CONFIG - Change the 8282 here to expose the Query Service UI on a different port
+      - "8282:80"
     depends_on:
-    - wdqs-proxy
+      - wdqs-proxy
     networks:
       default:
         aliases:
-         - wdqs-frontend.svc
+          - wdqs-frontend.svc
     environment:
       - WIKIBASE_HOST=wikibase.svc
       - WDQS_HOST=wdqs-proxy.svc
+      - LANGUAGE
+      - BRAND_TITLE
 
 
   wdqs:
     image: wikibase/wdqs:0.3.40
     restart: unless-stopped
     volumes:
-      - ./query-service-data:/wdqs/data
+      - ./volumes/query-service-data:/wdqs/data
     command: /runBlazegraph.sh
     networks:
       default:
         aliases:
-         - wdqs.svc
+          - wdqs.svc
     environment:
       - WIKIBASE_HOST=wikibase.svc
       - WDQS_HOST=wdqs.svc
@@ -94,13 +95,13 @@ services:
     environment:
       - PROXY_PASS_HOST=wdqs.svc:9999
     ports:
-     - "8989:80"
+      - "8989:80"
     depends_on:
-    - wdqs
+      - wdqs
     networks:
       default:
         aliases:
-         - wdqs-proxy.svc
+          - wdqs-proxy.svc
 
 
   wdqs-updater:
@@ -108,12 +109,12 @@ services:
     restart: unless-stopped
     command: /runUpdate.sh
     depends_on:
-    - wdqs
-    - wikibase
+      - wdqs
+      - wikibase
     networks:
       default:
         aliases:
-         - wdqs-updater.svc
+          - wdqs-updater.svc
     environment:
      - WIKIBASE_HOST=wikibase.svc
      - WDQS_HOST=wdqs.svc
@@ -126,7 +127,7 @@ services:
     networks:
       default:
         aliases:
-         - elasticsearch.svc
+          - elasticsearch.svc
     environment:
       discovery.type: single-node
       ES_JAVA_OPTS: "-Xms512m -Xmx512m"
