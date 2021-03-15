@@ -61,7 +61,12 @@ docker-compose up -d
 
 ### Données
 
-FIXME
+Les [données sont chargées automatiquement toutes les nuites à 00h00](https://github.com/abes-esr/abes-labo-movies/blob/main/neo4j/data-cron-loader/tasks) depuis les fichiers cypher présents dans le répertoire suivant : [`data/*.cypher`](https://github.com/abes-esr/abes-labo-movies/tree/main/data).
+
+A noter qu'il est possible de forcer le chargement du/des dernier(s) fichier(s) `data/*.cypher` en utilisant la commande suivante :
+```
+docker exec -it movies-cron /scripts/reload-data-from-git.sh
+```
 
 ## GraphDB
 
