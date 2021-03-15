@@ -21,7 +21,7 @@ Contient le virtuoso utilisé par l'étude (remplacer 127.0.0.1 par le nom ou l'
 
 Pour lancer/créer le conteneur docker virtuoso (en initialisant le mot de passe admin une première fois) :
 ```
-cd /home/devel/abes-labo-movies/virtuoso/
+cd /srv/abes-labo-movies/virtuoso/
 cp .env-dist .env
 # modifier .env et ajuster le mot de passe souhaité
 docker-compose up -d
@@ -53,7 +53,7 @@ Contient le neo4j utilisé par l'étude.
 
 Pour lancer/créer le conteneur docker neo4j (en initialisant le mot de passe admin une première fois) :
 ```
-cd /home/devel/abes-labo-movies/neo4j/
+cd /srv/abes-labo-movies/neo4j/
 cp .env-dist .env
 # modifier .env et ajuster le mot de passe souhaité
 docker-compose up -d
@@ -83,8 +83,8 @@ Pour lancer/créer le conteneur docker graphdb :
 - il faut ensuite déposer le zip dans le répertoire `/home/devel/abes-labo-movies/graphdb/free-edition/`
 - ensuite il faut builder et lancer le conteneur de cette manière :
 ```
-cd /home/devel/abes-labo-movies/graphdb/
-ls /home/devel/abes-labo-movies/graphdb/free-edition/graphdb-free-9.6.0-dist.zip # c'est ici que le zip doit être présent
+cd /srv/abes-labo-movies/graphdb/
+ls /srv/abes-labo-movies/graphdb/free-edition/graphdb-free-9.6.0-dist.zip # c'est ici que le zip doit être présent
 # la commande suivante va builder l'image docker et créer un conteneur en se basant sur cette image
 docker-compose up -d
 ```
@@ -107,7 +107,7 @@ En local nous avons également une instance pour l'étude via docker :
 
 Pour lancer/créer les conteneurs docker wikibase :
 ```
-cd /home/devel/abes-labo-movies/wikibase/
+cd /srv/abes-labo-movies/wikibase/
 cp .env-dist .env
 # modifier .env et ajuster les variables (dont le mot de passe)
 docker-compose up -d
