@@ -132,3 +132,29 @@ services:
       discovery.type: single-node
       ES_JAVA_OPTS: "-Xms512m -Xmx512m"
 
+
+  # Remarqie concernent le module quickstatements :
+  # ne fonctionne pas car necessite de faire fonctionner l'authentification oauth
+  # que l'on ne va pas forecment prendre le temps de parametrer pour l'etude labo MOVies
+  quickstatements:
+    image: wikibase/quickstatements:latest
+    ports:
+      - "9191:80"
+    depends_on:
+      - wikibase
+    volumes:
+      - ./volumes/quickstatements-data/:/quickstatements/data/
+    networks:
+      default:
+        aliases:
+          - quickstatements.svc
+    environment:
+      - QS_PUBLIC_SCHEME_HOST_AND_PORT
+      - WB_PUBLIC_SCHEME_HOST_AND_PORT
+      - WIKIBASE_SCHEME_AND_HOST=http://wikibase.svc
+      - WB_PROPERTY_NAMESPACE=122
+      - "WB_PROPERTY_PREFIX=Property:"
+      - WB_ITEM_NAMESPACE=120
+      - "WB_ITEM_PREFIX=Item:"
+
+
