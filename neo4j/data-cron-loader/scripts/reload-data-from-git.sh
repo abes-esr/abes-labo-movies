@@ -17,4 +17,4 @@ cp -r "$DATA_TMP_DIR/data/" "$DATA_OUTPUT_DIR/" || exit $IO_ERROR
 
 
 echo "MATCH (n) DETACH DELETE n" | /scripts/load-data-to-neo4j.sh \
-    && /scripts/load-data-to-neo4j.sh $DATA_OUTPUT_DIR/data/*.cypher || exit $SCRIPT_ERROR
+    && /scripts/load-data-to-neo4j.sh "$DATA_OUTPUT_DIR/data/*.cypher" || exit $SCRIPT_ERROR
