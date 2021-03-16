@@ -1,6 +1,6 @@
 .env
 virtuoso/database/
-neo4j/data/
+neo4j/volumes/
 graphdb/free-edition/*.zip
 graphdb/graphdb-data/
-
+wikibase/volumes/
