@@ -21,8 +21,6 @@ services:
     ports:
       - 7474:7474 # interface web du backoffice
       - 7687:7687 # api du backoffice (bolt)
-    expose:
-      - "7474"
     volumes:
       - ./volumes/neo4j-database:/data
       - ./volumes/shared-data-to-load:/shared-data-to-load:ro
