@@ -65,7 +65,7 @@ Les [données sont chargées automatiquement toutes les nuites à 00h00](https:/
 
 A noter qu'il est possible de forcer le chargement du/des dernier(s) fichier(s) `data/*.cypher` en utilisant la commande suivante :
 ```
-docker exec -it movies-cron /scripts/reload-data-from-git.sh
+docker exec -it movies-neo4j-cron /scripts/reload-data-from-git.sh
 ```
 
 ## GraphDB
