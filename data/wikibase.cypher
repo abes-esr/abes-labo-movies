@@ -1,3 +1,8 @@
+#
+# Code inspiré de https://towardsdatascience.com/traveling-tourist-part-1-import-wikidata-to-neo4j-with-neosemantics-library-f80235f40dc5
+# TODO: l'adapter sur le sparql wikibase de l'etude
+#
+
 CALL n10s.graphconfig.init({handleVocabUris: "IGNORE"})
 
 WITH '
