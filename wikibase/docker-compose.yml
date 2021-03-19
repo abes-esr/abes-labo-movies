@@ -82,7 +82,9 @@ services:
         aliases:
           - wdqs.svc
     environment:
-      - WIKIBASE_HOST=wikibase.svc
+      - WIKIBASE_SCHEME
+      - WIKIBASE_HOST
+      - WIKIBASE_MAX_DAYS_BACK
       - WDQS_HOST=wdqs.svc
       - WDQS_PORT=9999
     expose:
@@ -116,7 +118,9 @@ services:
         aliases:
           - wdqs-updater.svc
     environment:
-     - WIKIBASE_HOST=wikibase.svc
+     - WIKIBASE_SCHEME
+     - WIKIBASE_HOST
+     - WIKIBASE_MAX_DAYS_BACK
      - WDQS_HOST=wdqs.svc
      - WDQS_PORT=9999
 
