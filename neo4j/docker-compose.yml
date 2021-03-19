@@ -26,4 +26,5 @@ services:
       - ./volumes/shared-data-to-load:/shared-data-to-load:ro
     environment:
       - NEO4J_AUTH
-      - NEO4JLABS_PLUGINS=["apoc", "graph-data-science"]
+      - NEO4JLABS_PLUGINS=["apoc", "graph-data-science", "n10s"]
+      - NEO4J_dbms_unmanaged__extension__classes=semantics.extension=/rdf
