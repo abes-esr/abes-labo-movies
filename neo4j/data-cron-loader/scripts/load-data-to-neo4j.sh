@@ -56,7 +56,7 @@ if [ -p /dev/stdin ]; then
     done < /dev/stdin
 fi
 
-for file in $(ls $@)
+for file in $(find $@ -maxdepth 1 -type f)
 do        
     if [ "${file: -7}" = ".cypher" ]; then
         # Batch process n lines of a file
