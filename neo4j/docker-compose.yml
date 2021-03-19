@@ -1,9 +1,9 @@
 version: '3'
 
 services:
-  movies-cron:
+  movies-neo4j-cron:
     build: ./data-cron-loader
-    container_name: movies-cron
+    container_name: movies-neo4j-cron
     restart: unless-stopped
     volumes:
       - ./volumes/shared-data-to-load:/shared-data-to-load
