@@ -85,6 +85,7 @@ Pour lancer/créer le conteneur docker graphdb :
 ```
 cd /srv/abes-labo-movies/graphdb/
 ls /srv/abes-labo-movies/graphdb/free-edition/graphdb-free-9.6.0-dist.zip # c'est ici que le zip doit être présent
+cp .env-dist .env # modifier ensuite .env si nécessaire (à priori non nécessaire)
 # la commande suivante va builder l'image docker et créer un conteneur en se basant sur cette image
 docker-compose up -d
 ```
