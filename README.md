@@ -91,7 +91,13 @@ docker-compose up -d
 
 ### Données
 
-FIXME
+Les [données sont chargées automatiquement toutes les nuites à 00h00](https://github.com/abes-esr/abes-labo-movies/blob/main/graphdb/data-cron-loader/tasks) depuis les fichiers turtle (ttl) présents dans le répertoire suivant : [`data/*.ttl`](https://github.com/abes-esr/abes-labo-movies/tree/main/data).
+
+A noter qu'il est possible de forcer le chargement du/des dernier(s) fichier(s) `data/*.ttl` en utilisant la commande suivante :
+```
+docker exec -it movies-graphdb-cron /scripts/reload-data-from-git.sh
+```
+
 
 ## Wikibase
 
