@@ -3,4 +3,5 @@ virtuoso/database/
 neo4j/volumes/
 graphdb/free-edition/*.zip
 graphdb/graphdb-data/
-wikibase/volumes/
+wikibase/volumes/mediawiki-mysql-data/
+wikibase/volumes/query-service-data/
