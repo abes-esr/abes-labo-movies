@@ -2,6 +2,8 @@
 
 # Ce script recharge les donnees GraphDB de movies a partir d'un depot git
 
+echo "--> $(date '+%Y-%m-%d %H:%M:%S') - Rechargement des donnees graphdb de movies à partir de $GIT_REPO (data/*.ttl)" 
+
 IO_ERROR=3
 SCRIPT_ERROR=5
 
