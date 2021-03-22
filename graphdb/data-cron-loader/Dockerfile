@@ -7,7 +7,7 @@
 #
 FROM ontotext/graphdb:9.6.0-free
 
-RUN apk add git curl jq bash docker-cli
+RUN apk add git bash docker-cli
 
 COPY tasks /etc/cron.d/tasks
 COPY scripts /scripts
