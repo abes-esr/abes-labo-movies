@@ -2,7 +2,7 @@
 
 # Ce script recharge les données de movies à partir d'un dépôt git
 
-echo "--> $(date '+%Y-%m-%d %H:%M:%S') - Rechargement des donnees neo4j de movies à partir de $GIT_REPO (data/*.cypher)" 
+echo "--> $(date '+%Y-%m-%d %H:%M:%S') - Rechargement des donnees neo4j de movies a partir de $GIT_REPO (data/*.cypher)" 
 
 IO_ERROR=3
 SCRIPT_ERROR=5
