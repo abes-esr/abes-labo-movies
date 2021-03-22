@@ -85,13 +85,20 @@ Pour lancer/créer le conteneur docker graphdb :
 ```
 cd /srv/abes-labo-movies/graphdb/
 ls /srv/abes-labo-movies/graphdb/free-edition/graphdb-free-9.6.0-dist.zip # c'est ici que le zip doit être présent
+cp .env-dist .env # modifier ensuite .env si nécessaire (à priori non nécessaire)
 # la commande suivante va builder l'image docker et créer un conteneur en se basant sur cette image
 docker-compose up -d
 ```
 
 ### Données
 
-FIXME
+Les [données sont chargées automatiquement toutes les nuites à 00h00](https://github.com/abes-esr/abes-labo-movies/blob/main/graphdb/data-cron-loader/tasks) depuis les fichiers turtle (ttl) présents dans le répertoire suivant : [`data/*.ttl`](https://github.com/abes-esr/abes-labo-movies/tree/main/data).
+
+A noter qu'il est possible de forcer le chargement du/des dernier(s) fichier(s) `data/*.ttl` en utilisant la commande suivante :
+```
+docker exec -it movies-graphdb-cron /scripts/reload-data-from-git.sh
+```
+
 
 ## Wikibase
 
