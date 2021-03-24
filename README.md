@@ -5,41 +5,10 @@ Depôt contenant les configurations et documentations des outils utilisés pour 
 En bref, cette étude interne à l'Abes vise à chercher comment modéliser au mieux la vie des établissements de l'ESR en s'attardant sur la vie des établissements expérimentaux. 
 
 4 outils sont testés :
-- [Virtuoso](./README.md#Virtuoso)
 - [Neo4J](./README.md#Neo4J)
 - [GraphDB](./README.md#GraphDB)
 - [Wikibase](./README.md#Wikibase)
-
-## Virtuoso
-
-Contient le virtuoso utilisé par l'étude (remplacer 127.0.0.1 par le nom ou l'IP du serveur utilisé par l'étude).
-
-- L'URL du sparql de virtuoso : http://127.0.0.1:8890/sparql/
-- L'URL du backoffice : http://127.0.0.1:8890/
-
-### Installation
-
-Pour lancer/créer le conteneur docker virtuoso (en initialisant le mot de passe admin une première fois) :
-```
-cd /srv/abes-labo-movies/virtuoso/
-cp .env-dist .env
-# modifier .env et ajuster le mot de passe souhaité
-docker-compose up -d
-```
-
-### Paramétrages
-
-L'image docker utilisée est la suivante : https://hub.docker.com/r/openlink/virtuoso-opensource-7
-
-- Les paramètres sont réglés principalement dans le fichier `virtuoso.ini` : https://github.com/abes-esr/abes-labo-movies/blob/main/virtuoso/virtuoso-movies.ini
-- Ces paramètres critiques `NumberOfBuffers` et `MaxDirtyBuffers` peuvent être réglés ici : https://github.com/abes-esr/abes-labo-movies/blob/main/virtuoso/virtuoso-movies.ini#L110-L114
-
-Remarque : une fois un paramètre modifié, il est nécessaire de relancer le conteneur docker pour que le paramètre soit pris en compte.
-
-### Données
-
-FIXME
-
+- [Virtuoso](./README.md#Virtuoso) (décision de ne plus investir sur cet outil au profit de [GraphDB](./README.md#GraphDB) le 22/03/2021)
 
 ## Neo4J
 
@@ -119,6 +88,32 @@ cp .env-dist .env
 # modifier .env et ajuster les variables (dont le mot de passe)
 docker-compose up -d
 ```
+
+## Virtuoso
+
+Contient le virtuoso utilisé par l'étude (remplacer 127.0.0.1 par le nom ou l'IP du serveur utilisé par l'étude).
+
+- L'URL du sparql de virtuoso : http://127.0.0.1:8890/sparql/
+- L'URL du backoffice : http://127.0.0.1:8890/
+
+### Installation
+
+Pour lancer/créer le conteneur docker virtuoso (en initialisant le mot de passe admin une première fois) :
+```
+cd /srv/abes-labo-movies/virtuoso/
+cp .env-dist .env
+# modifier .env et ajuster le mot de passe souhaité
+docker-compose up -d
+```
+
+### Paramétrages
+
+L'image docker utilisée est la suivante : https://hub.docker.com/r/openlink/virtuoso-opensource-7
+
+- Les paramètres sont réglés principalement dans le fichier `virtuoso.ini` : https://github.com/abes-esr/abes-labo-movies/blob/main/virtuoso/virtuoso-movies.ini
+- Ces paramètres critiques `NumberOfBuffers` et `MaxDirtyBuffers` peuvent être réglés ici : https://github.com/abes-esr/abes-labo-movies/blob/main/virtuoso/virtuoso-movies.ini#L110-L114
+
+Remarque : une fois un paramètre modifié, il est nécessaire de relancer le conteneur docker pour que le paramètre soit pris en compte.
 
 
 
