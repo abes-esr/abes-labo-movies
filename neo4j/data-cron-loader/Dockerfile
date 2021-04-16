@@ -1,6 +1,6 @@
-FROM alpine:3.13
+FROM neo4j:4.2.3
 
-RUN apk add git curl jq bash
+RUN apt update && apt install -y git curl jq cron
 
 RUN mkdir /shared-data-to-load && mkdir /temp-shared-data-to-load
 
@@ -10,4 +10,4 @@ RUN chmod -R +x /scripts
 
 RUN crontab /etc/cron.d/tasks
 
-ENTRYPOINT ["crond", "-f"]
+ENTRYPOINT ["cron", "-f"]

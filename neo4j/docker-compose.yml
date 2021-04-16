@@ -11,8 +11,8 @@ services:
       - "movies-neo4j"
     environment:
       - GIT_REPO
-      - NEO4J_BASE_URL
       - NEO4J_AUTH
+      - NEO4J_BOLT_URL=neo4j://movies-neo4j:7687
   
   movies-neo4j:
     image: neo4j:4.2.3
