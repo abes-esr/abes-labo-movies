@@ -15,3 +15,19 @@ services:
       - 7200:7200
     volumes:
       - ./graphdb-data/:/opt/graphdb/home/
+
+  movies-graphdb-cron:
+    build: ./data-cron-loader
+    container_name: movies-graphdb-cron
+    restart: unless-stopped
+    depends_on:
+      - "movies-graphdb"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./graphdb-data/data/:/opt/graphdb/dist/data/
+      - ./config-graphdb-movies-repo.ttl:/root/config-graphdb-movies-repo.ttl
+    environment:
+      - GIT_REPO
+      - GRAPHDB_INSTANCE_CONTAINER_NAME=movies-graphdb
+
+

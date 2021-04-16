@@ -9,6 +9,7 @@
 
 # Git clone/pull stuff
 if [ "$GIT_REPO" == "" ]; then
+        echo "--> $(date '+%Y-%m-%d %H:%M:%S') - Rechargement des donnees neo4j de movies a partir de $GIT_REPO (data/*.cypher)" 
 	if [ ! -d /git-clone-cypher-data-to-load/.git/ ]; then
 		rm -rf /git-clone-cypher-data-to-load/*
 		git config --global pull.rebase false
@@ -18,6 +19,8 @@ if [ "$GIT_REPO" == "" ]; then
 	fi
 	rm -rf /cypher-data-to-load/*
 	cp -r /git-clone-cypher-data-to-load/data/* /cypher-data-to-load/
+else
+        echo "--> $(date '+%Y-%m-%d %H:%M:%S') - Rechargement des donnees neo4j de movies a partir de /cypher-data-to-load/*.cypher" 
 fi
 
 # Neo4j cleaning stuff

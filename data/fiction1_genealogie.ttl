@@ -1,0 +1,129 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.abes.fr/entities/organizations/UNI_A> a foaf:Organization ;
+	foaf:name "UNI_A" ;
+	a <http://www.abes.fr/entities/organizations/types/Universite> .
+
+<http://www.abes.fr/entities/etat/existence/0> a <http://www.abes.fr/entities/etats> ;
+	<http://www.abes.fr/vocabularies/movies#from> <http://www.abes.fr/entities/organizations/UNI_A> ;
+	<http://www.abes.fr/vocabularies/movies#start> "1980" ;
+	<http://www.abes.fr/vocabularies/movies#statetype> "existence" .
+
+<http://www.abes.fr/entities/etat/comue-membre/1> a <http://www.abes.fr/entities/etats> ;
+	<http://www.abes.fr/vocabularies/movies#from> <http://www.abes.fr/entities/organizations/UNI_A> ;
+	<http://www.abes.fr/vocabularies/movies#start> "2010" ;
+	<http://www.abes.fr/vocabularies/movies#to> <http://www.abes.fr/entities/organizations/COMUE_COCO> ;
+	<http://www.abes.fr/vocabularies/movies#statetype> "comue-membre" .
+
+<http://www.abes.fr/entities/organizations/COMUE_COCO> a foaf:Organization ;
+	foaf:name "COMUE_COCO" ;
+	a <http://www.abes.fr/entities/organizations/types/Comue> .
+
+<http://www.abes.fr/entities/etat/existence/2> a <http://www.abes.fr/entities/etats> ;
+	<http://www.abes.fr/vocabularies/movies#from> <http://www.abes.fr/entities/organizations/COMUE_COCO> ;
+	<http://www.abes.fr/vocabularies/movies#start> "2008" ;
+	<http://www.abes.fr/vocabularies/movies#statetype> "existence" .
+
+<http://www.abes.fr/entities/etat/succession/3> a <http://www.abes.fr/entities/etats> ;
+	<http://www.abes.fr/vocabularies/movies#from> <http://www.abes.fr/entities/organizations/UNI_A> ;
+	<http://www.abes.fr/vocabularies/movies#start> "2015" ;
+	<http://www.abes.fr/vocabularies/movies#to> <http://www.abes.fr/entities/organizations/UNI_B> ;
+	<http://www.abes.fr/vocabularies/movies#statetype> "succession" .
+
+<http://www.abes.fr/entities/organizations/UNI_B> a foaf:Organization ;
+	foaf:name "UNI_B" ;
+	a <http://www.abes.fr/entities/organizations/types/Universite> .
+
+<http://www.abes.fr/entities/etat/existence/4> a <http://www.abes.fr/entities/etats> ;
+	<http://www.abes.fr/vocabularies/movies#from> <http://www.abes.fr/entities/organizations/UNI_B> ;
+	<http://www.abes.fr/vocabularies/movies#start> "2015" ;
+	<http://www.abes.fr/vocabularies/movies#statetype> "existence" .
+
+<http://www.abes.fr/entities/etat/succession/5> a <http://www.abes.fr/entities/etats> ;
+	<http://www.abes.fr/vocabularies/movies#from> <http://www.abes.fr/entities/organizations/UNI_B> ;
+	<http://www.abes.fr/vocabularies/movies#start> "2021" ;
+	<http://www.abes.fr/vocabularies/movies#to> <http://www.abes.fr/entities/organizations/UNI_C> ;
+	<http://www.abes.fr/vocabularies/movies#statetype> "succession" .
+
+<http://www.abes.fr/entities/organizations/UNI_C> a foaf:Organization ;
+	foaf:name "UNI_C" ;
+	a <http://www.abes.fr/entities/organizations/types/Universite> .
+
+<http://www.abes.fr/entities/etat/existence/6> a <http://www.abes.fr/entities/etats> ;
+	<http://www.abes.fr/vocabularies/movies#from> <http://www.abes.fr/entities/organizations/UNI_C> ;
+	<http://www.abes.fr/vocabularies/movies#start> "2021" ;
+	<http://www.abes.fr/vocabularies/movies#statetype> "existence" .
+
+<http://www.abes.fr/entities/organizations/UNI_D> a foaf:Organization ;
+	foaf:name "UNI_D" ;
+	a <http://www.abes.fr/entities/organizations/types/Universite> .
+
+<http://www.abes.fr/entities/etat/existence/8> a <http://www.abes.fr/entities/etats> ;
+	<http://www.abes.fr/vocabularies/movies#from> <http://www.abes.fr/entities/organizations/UNI_D> ;
+	<http://www.abes.fr/vocabularies/movies#start> "1900" ;
+	<http://www.abes.fr/vocabularies/movies#statetype> "existence" .
+
+<http://www.abes.fr/entities/etat/succession/9> a <http://www.abes.fr/entities/etats> ;
+	<http://www.abes.fr/vocabularies/movies#from> <http://www.abes.fr/entities/organizations/UNI_D> ;
+	<http://www.abes.fr/vocabularies/movies#start> "2021" ;
+	<http://www.abes.fr/vocabularies/movies#to> <http://www.abes.fr/entities/organizations/UNI_C> ;
+	<http://www.abes.fr/vocabularies/movies#statetype> "succession" .
+
+<http://www.abes.fr/entities/organizations/ECOLE_M> a foaf:Organization ;
+	foaf:name "ECOLE_M" ;
+	a <http://www.abes.fr/entities/organizations/types/Ecole> .
+
+<http://www.abes.fr/entities/etat/existence/13> a <http://www.abes.fr/entities/etats> ;
+	<http://www.abes.fr/vocabularies/movies#from> <http://www.abes.fr/entities/organizations/ECOLE_M> ;
+	<http://www.abes.fr/vocabularies/movies#start> "1965" ;
+	<http://www.abes.fr/vocabularies/movies#statetype> "existence" .
+
+<http://www.abes.fr/entities/etat/delegation-docelec/14> a <http://www.abes.fr/entities/etats> ;
+	<http://www.abes.fr/vocabularies/movies#from> <http://www.abes.fr/entities/organizations/ECOLE_M> ;
+	<http://www.abes.fr/vocabularies/movies#start> "2015" ;
+	<http://www.abes.fr/vocabularies/movies#to> <http://www.abes.fr/entities/organizations/UNI_N> ;
+	<http://www.abes.fr/vocabularies/movies#statetype> "delegation-docelec" .
+
+<http://www.abes.fr/entities/etat/delegation-doctorale/15> a <http://www.abes.fr/entities/etats> ;
+	<http://www.abes.fr/vocabularies/movies#from> <http://www.abes.fr/entities/organizations/ECOLE_M> ;
+	<http://www.abes.fr/vocabularies/movies#start> "2006" ;
+	<http://www.abes.fr/vocabularies/movies#to> <http://www.abes.fr/entities/organizations/UNI_N> ;
+	<http://www.abes.fr/vocabularies/movies#statetype> "delegation-doctorale" .
+
+<http://www.abes.fr/entities/organizations/UNI_M> a foaf:Organization ;
+	foaf:name "UNI_M" ;
+	a <http://www.abes.fr/entities/organizations/types/Universite> .
+
+<http://www.abes.fr/entities/etat/existence/16> a <http://www.abes.fr/entities/etats> ;
+	<http://www.abes.fr/vocabularies/movies#from> <http://www.abes.fr/entities/organizations/UNI_M> ;
+	<http://www.abes.fr/vocabularies/movies#start> "1988" ;
+	<http://www.abes.fr/vocabularies/movies#statetype> "existence" .
+
+<http://www.abes.fr/entities/organizations/ECOLE_T> a foaf:Organization ;
+	foaf:name "ECOLE_T" ;
+	a <http://www.abes.fr/entities/organizations/types/Ecole> .
+
+<http://www.abes.fr/entities/etat/existence/18> a <http://www.abes.fr/entities/etats> ;
+	<http://www.abes.fr/vocabularies/movies#from> <http://www.abes.fr/entities/organizations/ECOLE_T> ;
+	<http://www.abes.fr/vocabularies/movies#start> "1992" ;
+	<http://www.abes.fr/vocabularies/movies#statetype> "existence" .
+
+<http://www.abes.fr/entities/etat/appartenance-composante/19> a <http://www.abes.fr/entities/etats> ;
+	<http://www.abes.fr/vocabularies/movies#from> <http://www.abes.fr/entities/organizations/ECOLE_T> ;
+	<http://www.abes.fr/vocabularies/movies#start> "2015" ;
+	<http://www.abes.fr/vocabularies/movies#to> <http://www.abes.fr/entities/organizations/EPE_U> ;
+	<http://www.abes.fr/vocabularies/movies#statetype> "appartenance-composante" .
+
+<http://www.abes.fr/entities/organizations/EPE_U> a foaf:Organization ;
+	foaf:name "EPE_U" ;
+	a <http://www.abes.fr/entities/organizations/types/EPE> .
+
+<http://www.abes.fr/entities/etat/existence/20> a <http://www.abes.fr/entities/etats> ;
+	<http://www.abes.fr/vocabularies/movies#from> <http://www.abes.fr/entities/organizations/EPE_U> ;
+	<http://www.abes.fr/vocabularies/movies#start> "2015" ;
+	<http://www.abes.fr/vocabularies/movies#statetype> "existence" .

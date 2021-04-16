@@ -9,6 +9,7 @@ services:
       # CONFIG - Change the 8181 here to expose Wikibase & MediaWiki on a different port
       - "8181:80"
     volumes:
+      - ./volumes/LocalSettings.php.template:/LocalSettings.php.template
       - ./volumes/mediawiki-images-data:/var/www/html/images
       - ./volumes/quickstatements-data:/quickstatements/data
     depends_on:
