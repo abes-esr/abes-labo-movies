@@ -1,6 +1,6 @@
 FROM neo4j:4.2.3
 
-RUN apt update && apt install -y git curl jq cron
+RUN apt update && apt install -y git cron
 
 RUN mkdir /shared-data-to-load && mkdir /temp-shared-data-to-load
 
