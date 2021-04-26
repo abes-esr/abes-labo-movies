@@ -6,7 +6,7 @@ CALL n10s.graphconfig.init({handleVocabUris: "IGNORE"});
 CREATE CONSTRAINT n10s_unique_uri ON (r:Resource) ASSERT r.uri IS UNIQUE;
 
 
-CALL n10s.rdf.preview.fetch("http://labo-vm-2.v202.abes.fr:8282/proxy/wdqs/bigdata/namespace/wdq/sparql?query=" + apoc.text.urlencode('
+CALL n10s.rdf.import.fetch("http://labo-vm-2.v202.abes.fr:8282/proxy/wdqs/bigdata/namespace/wdq/sparql?query=" + apoc.text.urlencode('
 PREFIX sch: <http://schema.org/>
 PREFIX prop: <http://labo-vm-2.v202.abes.fr:8181/prop/direct/>
 PREFIX entity: <http://labo-vm-2.v202.abes.fr:8181/entity/>
