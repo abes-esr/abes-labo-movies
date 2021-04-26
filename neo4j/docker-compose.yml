@@ -11,8 +11,8 @@ services:
       - "movies-neo4j"
     environment:
       - GIT_REPO
-      - NEO4J_BASE_URL
       - NEO4J_AUTH
+      - NEO4J_BOLT_URL=neo4j://movies-neo4j:7687
   
   movies-neo4j:
     image: neo4j:4.2.3
@@ -26,4 +26,5 @@ services:
       - ./volumes/shared-data-to-load:/shared-data-to-load:ro
     environment:
       - NEO4J_AUTH
-      - NEO4JLABS_PLUGINS=["apoc", "graph-data-science"]
+      - NEO4JLABS_PLUGINS=["apoc", "graph-data-science", "n10s"]
+      - NEO4J_dbms_unmanaged__extension__classes=semantics.extension=/rdf

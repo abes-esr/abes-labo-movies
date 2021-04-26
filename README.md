@@ -37,6 +37,16 @@ A noter qu'il est possible de forcer le chargement du/des dernier(s) fichier(s) 
 docker exec -it movies-neo4j-cron /scripts/reload-data-from-git.sh
 ```
 
+Dans le cas où vous avez des fichiers cypher non présent sur github que vous souhaitez injecter (dans l'exemple suivant `000-neo4j-neosemantics-init.cypher`), vous pouvez lancer la commande suivante :
+```
+cat ./wikidata.cypher | docker exec -i movies-neo4j-cron /scripts/load-data-to-neo4j.sh
+```
+
+Dans le cas où vous souhaitez vider la base neo4j, lancez la commande suivante :
+```
+echo "MATCH (n) DETACH DELETE n;" | docker exec -i movies-neo4j-cron /scripts/load-data-to-neo4j.sh
+```
+
 ## GraphDB
 
 Contient le graphdb utilisé par l'étude.
