@@ -3,6 +3,7 @@
 // TODO: l'adapter sur le sparql wikibase de l'etude (WIP)
 
 CALL n10s.graphconfig.init({handleVocabUris: "IGNORE"});
+CREATE CONSTRAINT n10s_unique_uri ON (r:Resource) ASSERT r.uri IS UNIQUE;
 
 CALL n10s.rdf.import.fetch("https://abes-labo-movies.wiki.opencura.com/query/sparql?query=" + apoc.text.urlencode('
 PREFIX sch: <http://schema.org/>
