@@ -8,7 +8,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 <http://www.abes.fr/entities/organizations/siren/130003924> a foaf:Organization;
-  foaf:name "UniverSud Paris" .
+  foaf:name "Univ Sud Paris" .
 
 <http://www.abes.fr/entities/etat/existence/130003924/be59482f354f252f93bf5ea57c3ff887/from/130003924>
   a <http://www.abes.fr/entities/etats>;
@@ -44,10 +44,10 @@
   mov:to <http://www.abes.fr/entities/organizations/siren/130026024-EPE> .
 
 <http://www.abes.fr/entities/organizations/siren/130026024-EPE> a foaf:Organization;
-  foaf:name "EPE  Paris Saclay" .
+  foaf:name "EPE Paris Saclay" .
 
 <http://www.abes.fr/entities/organizations/siren/199111014%20> a foaf:Organization;
-  foaf:name "Université Paris 11 (Sud)" .
+  foaf:name "Univ Paris 11 (Sud)" .
 
 <http://www.abes.fr/entities/etat/existence/199111014%20/26bf97dcc726efb3bef03c6f3b820c84/from/199111014%20>
   a <http://www.abes.fr/entities/etats>;
@@ -81,7 +81,7 @@
   mov:to <http://www.abes.fr/entities/organizations/siren/130026024-EPE> .
 
 <http://www.abes.fr/entities/organizations/siren/130026024> a foaf:Organization;
-  foaf:name "Université Paris Saclay" .
+  foaf:name "Univ Paris Saclay" .
 
 <http://www.abes.fr/entities/etat/existence/130026024/f1de74f03f4b4751b77805c10ab00e3f/from/130026024>
   a <http://www.abes.fr/entities/etats>;
@@ -124,7 +124,7 @@
   mov:to <http://www.abes.fr/entities/organizations/siren/130026024-EPE> .
 
 <http://www.abes.fr/entities/organizations/siren/130020761> a foaf:Organization;
-  foaf:name "Centralesupelec" .
+  foaf:name "CentraleSupelec" .
 
 <http://www.abes.fr/entities/etat/existence/130020761/87fdefdbd3974b18936619f4ee441c51/from/130020761>
   a <http://www.abes.fr/entities/etats>;
@@ -142,7 +142,7 @@
   mov:to <http://www.abes.fr/entities/organizations/siren/130026024-EPE> .
 
 <http://www.abes.fr/entities/organizations/siren/784616989> a foaf:Organization;
-  foaf:name "Institut d'optique" .
+  foaf:name "Inst d'optique" .
 
 <http://www.abes.fr/entities/etat/existence/784616989/49a27546d59a76dfa096ea7bad75e947/from/784616989>
   a <http://www.abes.fr/entities/etats>;
@@ -160,7 +160,7 @@
   mov:to <http://www.abes.fr/entities/organizations/siren/130026024-EPE> .
 
 <http://www.abes.fr/entities/organizations/siren/130002850> a foaf:Organization;
-  foaf:name "Agroparistech" .
+  foaf:name "AgroParisTech" .
 
 <http://www.abes.fr/entities/etat/existence/130002850/fa1754233b42df12292308d1895f4ca4/from/130002850>
   a <http://www.abes.fr/entities/etats>;
@@ -194,7 +194,7 @@
   mov:to <http://www.abes.fr/entities/organizations/siren/130026024-EPE> .
 
 <http://www.abes.fr/entities/organizations/siren/199119751> a foaf:Organization;
-  foaf:name "Université Evry " .
+  foaf:name "Univ Evry " .
 
 <http://www.abes.fr/entities/etat/existence/199119751/0fb95cefc680a795c1665ce41e4ac2d1/from/199119751>
   a <http://www.abes.fr/entities/etats>;
@@ -212,7 +212,7 @@
   mov:to <http://www.abes.fr/entities/organizations/siren/130026024-EPE> .
 
 <http://www.abes.fr/entities/organizations/siren/197819444> a foaf:Organization;
-  foaf:name "Université Versailles" .
+  foaf:name "Univ Versailles" .
 
 <http://www.abes.fr/entities/etat/existence/197819444/0fb95cefc680a795c1665ce41e4ac2d1/from/197819444>
   a <http://www.abes.fr/entities/etats>;
@@ -230,7 +230,7 @@
   mov:to <http://www.abes.fr/entities/organizations/siren/130026024-EPE> .
 
 <http://www.abes.fr/entities/organizations/siren/775688252> a foaf:Organization;
-  foaf:name "Institut des hautes études scientifiques" .
+  foaf:name "Inst des hautes études scientifiques" .
 
 <http://www.abes.fr/entities/etat/existence/775688252/eac405916966c6a628191cf27fbcad41/from/775688252>
   a <http://www.abes.fr/entities/etats>;
