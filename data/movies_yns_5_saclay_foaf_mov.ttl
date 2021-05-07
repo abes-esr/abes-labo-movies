@@ -1,0 +1,12 @@
+@prefix mov: <http://www.abes.fr/vocabularies/movies#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.abes.fr/entities/organizations/siren/130003924> a foaf:Organization;
+  foaf:name "UniverSud Paris" .
+
+<http://www.abes.fr/entities/etat/existence/130003924/be59482f354f252f93bf5ea57c3ff887/from/130003924>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/130003924>;
+  mov:start "2007"^^xsd:date;
+  mov:end "2014"^^xsd:date;
+  mov:statetype "existence" .
