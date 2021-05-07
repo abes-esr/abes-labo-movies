@@ -1,5 +1,3 @@
-MATCH (n)
-DETACH DELETE n;
 
 
 WITH
