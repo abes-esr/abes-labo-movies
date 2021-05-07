@@ -1,0 +1,272 @@
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix mov: <http://www.abes.fr/vocabularies/movies#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.abes.fr/entities/organizations/siren/130003924> a foaf:Organization;
+  foaf:name "UniverSud Paris" .
+
+<http://www.abes.fr/entities/etat/existence/130003924/be59482f354f252f93bf5ea57c3ff887/from/130003924>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/130003924>;
+  mov:start "2007"^^xsd:date;
+  mov:end "2014"^^xsd:date;
+  mov:statetype "existence" .
+
+<http://www.abes.fr/entities/etat/succession/130003924/89dfdfe6a445b94adcfd4af128b7d758/from/130003924/to/130020746>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/130003924>;
+  mov:start "2015"^^xsd:date;
+  mov:end "2015"^^xsd:date;
+  mov:statetype "succession";
+  mov:to <http://www.abes.fr/entities/organizations/siren/130020746> .
+
+<http://www.abes.fr/entities/organizations/siren/130020746> a foaf:Organization;
+  foaf:name "COMUE Saclay" .
+
+<http://www.abes.fr/entities/etat/existence/130020746/af3263d8700a16d6562a1fdf4f79610f/from/130020746>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/130020746>;
+  mov:start "2015"^^xsd:date;
+  mov:end "2019"^^xsd:date;
+  mov:statetype "existence" .
+
+<http://www.abes.fr/entities/etat/succession/130020746/e46df8f2dea278b206741ee8bc73b600/from/130020746/to/130026024-EPE>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/130020746>;
+  mov:start "2019"^^xsd:date;
+  mov:end "2019"^^xsd:date;
+  mov:statetype "succession";
+  mov:to <http://www.abes.fr/entities/organizations/siren/130026024-EPE> .
+
+<http://www.abes.fr/entities/organizations/siren/130026024-EPE> a foaf:Organization;
+  foaf:name "EPE  Paris Saclay" .
+
+<http://www.abes.fr/entities/organizations/siren/199111014%20> a foaf:Organization;
+  foaf:name "Université Paris 11 (Sud)" .
+
+<http://www.abes.fr/entities/etat/existence/199111014%20/26bf97dcc726efb3bef03c6f3b820c84/from/199111014%20>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/199111014%20>;
+  mov:start "1971"^^xsd:date;
+  mov:end "2019"^^xsd:date;
+  mov:statetype "existence" .
+
+<http://www.abes.fr/entities/etat/membre/199111014%20/be59482f354f252f93bf5ea57c3ff887/from/199111014%20/to/130003924>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/199111014%20>;
+  mov:start "2007"^^xsd:date;
+  mov:end "2014"^^xsd:date;
+  mov:statetype "membre";
+  mov:to <http://www.abes.fr/entities/organizations/siren/130003924> .
+
+<http://www.abes.fr/entities/etat/membre/199111014%20/af3263d8700a16d6562a1fdf4f79610f/from/199111014%20/to/130020746>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/199111014%20>;
+  mov:start "2015"^^xsd:date;
+  mov:end "2019"^^xsd:date;
+  mov:statetype "membre";
+  mov:to <http://www.abes.fr/entities/organizations/siren/130020746> .
+
+<http://www.abes.fr/entities/etat/succession/199111014%20/e46df8f2dea278b206741ee8bc73b600/from/199111014%20/to/130026024-EPE>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/199111014%20>;
+  mov:start "2019"^^xsd:date;
+  mov:end "2019"^^xsd:date;
+  mov:statetype "succession";
+  mov:to <http://www.abes.fr/entities/organizations/siren/130026024-EPE> .
+
+<http://www.abes.fr/entities/organizations/siren/130026024> a foaf:Organization;
+  foaf:name "Université Paris Saclay" .
+
+<http://www.abes.fr/entities/etat/existence/130026024/f1de74f03f4b4751b77805c10ab00e3f/from/130026024>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/130026024>;
+  mov:start "2019"^^xsd:date;
+  mov:end "9999"^^xsd:date;
+  mov:statetype "existence" .
+
+<http://www.abes.fr/entities/etat/appartenance-composante-noyau-dur/130026024/f1de74f03f4b4751b77805c10ab00e3f/from/130026024/to/130026024-EPE>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/130026024>;
+  mov:start "2019"^^xsd:date;
+  mov:end "9999"^^xsd:date;
+  mov:statetype "appartenance-composante-noyau-dur";
+  mov:to <http://www.abes.fr/entities/organizations/siren/130026024-EPE> .
+
+<http://www.abes.fr/entities/etat/existence/130026024-EPE/f1de74f03f4b4751b77805c10ab00e3f/from/130026024-EPE>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/130026024-EPE>;
+  mov:start "2019"^^xsd:date;
+  mov:end "9999"^^xsd:date;
+  mov:statetype "existence" .
+
+<http://www.abes.fr/entities/organizations/siren/199406075> a foaf:Organization;
+  foaf:name "ENS Paris Saclay" .
+
+<http://www.abes.fr/entities/etat/existence/199406075/5031b453c8c5de464baaf3d6cf48d467/from/199406075>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/199406075>;
+  mov:start "1966"^^xsd:date;
+  mov:end "9999"^^xsd:date;
+  mov:statetype "existence" .
+
+<http://www.abes.fr/entities/etat/appartenance-composante/199406075/12f8733bb92f71dc32d82770d26a9c4e/from/199406075/to/130026024-EPE>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/199406075>;
+  mov:start "2020"^^xsd:date;
+  mov:end "9999"^^xsd:date;
+  mov:statetype "appartenance-composante";
+  mov:to <http://www.abes.fr/entities/organizations/siren/130026024-EPE> .
+
+<http://www.abes.fr/entities/organizations/siren/130020761> a foaf:Organization;
+  foaf:name "Centralesupelec" .
+
+<http://www.abes.fr/entities/etat/existence/130020761/87fdefdbd3974b18936619f4ee441c51/from/130020761>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/130020761>;
+  mov:start "2015"^^xsd:date;
+  mov:end "9999"^^xsd:date;
+  mov:statetype "existence" .
+
+<http://www.abes.fr/entities/etat/appartenance-composante/130020761/12f8733bb92f71dc32d82770d26a9c4e/from/130020761/to/130026024-EPE>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/130020761>;
+  mov:start "2020"^^xsd:date;
+  mov:end "9999"^^xsd:date;
+  mov:statetype "appartenance-composante";
+  mov:to <http://www.abes.fr/entities/organizations/siren/130026024-EPE> .
+
+<http://www.abes.fr/entities/organizations/siren/784616989> a foaf:Organization;
+  foaf:name "Institut d'optique" .
+
+<http://www.abes.fr/entities/etat/existence/784616989/49a27546d59a76dfa096ea7bad75e947/from/784616989>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/784616989>;
+  mov:start "2006"^^xsd:date;
+  mov:end "9999"^^xsd:date;
+  mov:statetype "existence" .
+
+<http://www.abes.fr/entities/etat/appartenance-composante/784616989/12f8733bb92f71dc32d82770d26a9c4e/from/784616989/to/130026024-EPE>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/784616989>;
+  mov:start "2020"^^xsd:date;
+  mov:end "9999"^^xsd:date;
+  mov:statetype "appartenance-composante";
+  mov:to <http://www.abes.fr/entities/organizations/siren/130026024-EPE> .
+
+<http://www.abes.fr/entities/organizations/siren/130002850> a foaf:Organization;
+  foaf:name "Agroparistech" .
+
+<http://www.abes.fr/entities/etat/existence/130002850/fa1754233b42df12292308d1895f4ca4/from/130002850>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/130002850>;
+  mov:start "2007"^^xsd:date;
+  mov:end "9999"^^xsd:date;
+  mov:statetype "existence" .
+
+<http://www.abes.fr/entities/etat/appartenance-composante/130002850/12f8733bb92f71dc32d82770d26a9c4e/from/130002850/to/130026024-EPE>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/130002850>;
+  mov:start "2020"^^xsd:date;
+  mov:end "9999"^^xsd:date;
+  mov:statetype "appartenance-composante";
+  mov:to <http://www.abes.fr/entities/organizations/siren/130026024-EPE> .
+
+<http://www.abes.fr/entities/etat/delegation-doctorale/130002850/b8674273c3c5fdb09fa8b987e40ac6da/from/130002850/to/>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/130002850>;
+  mov:start "2016"^^xsd:date;
+  mov:end "2019"^^xsd:date;
+  mov:statetype "delegation-doctorale";
+  mov:to <http://www.abes.fr/entities/organizations/id/COMUE%20Saclay> .
+
+<http://www.abes.fr/entities/etat/delegation-doctorale/130002850/12f8733bb92f71dc32d82770d26a9c4e/from/130002850/to/130026024-EPE>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/130002850>;
+  mov:start "2020"^^xsd:date;
+  mov:end "9999"^^xsd:date;
+  mov:statetype "delegation-doctorale";
+  mov:to <http://www.abes.fr/entities/organizations/siren/130026024-EPE> .
+
+<http://www.abes.fr/entities/organizations/siren/199119751> a foaf:Organization;
+  foaf:name "Université Evry " .
+
+<http://www.abes.fr/entities/etat/existence/199119751/0fb95cefc680a795c1665ce41e4ac2d1/from/199119751>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/199119751>;
+  mov:start "1991"^^xsd:date;
+  mov:end "9999"^^xsd:date;
+  mov:statetype "existence" .
+
+<http://www.abes.fr/entities/etat/appartenance-associee/199119751/12f8733bb92f71dc32d82770d26a9c4e/from/199119751/to/130026024-EPE>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/199119751>;
+  mov:start "2020"^^xsd:date;
+  mov:end "9999"^^xsd:date;
+  mov:statetype "appartenance-associee";
+  mov:to <http://www.abes.fr/entities/organizations/siren/130026024-EPE> .
+
+<http://www.abes.fr/entities/organizations/siren/197819444> a foaf:Organization;
+  foaf:name "Université Versailles" .
+
+<http://www.abes.fr/entities/etat/existence/197819444/0fb95cefc680a795c1665ce41e4ac2d1/from/197819444>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/197819444>;
+  mov:start "1991"^^xsd:date;
+  mov:end "9999"^^xsd:date;
+  mov:statetype "existence" .
+
+<http://www.abes.fr/entities/etat/appartenance-associee/197819444/12f8733bb92f71dc32d82770d26a9c4e/from/197819444/to/130026024-EPE>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/197819444>;
+  mov:start "2020"^^xsd:date;
+  mov:end "9999"^^xsd:date;
+  mov:statetype "appartenance-associee";
+  mov:to <http://www.abes.fr/entities/organizations/siren/130026024-EPE> .
+
+<http://www.abes.fr/entities/organizations/siren/775688252> a foaf:Organization;
+  foaf:name "Institut des hautes études scientifiques" .
+
+<http://www.abes.fr/entities/etat/existence/775688252/eac405916966c6a628191cf27fbcad41/from/775688252>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/775688252>;
+  mov:start "1958"^^xsd:date;
+  mov:end "9999"^^xsd:date;
+  mov:statetype "existence" .
+
+<http://www.abes.fr/entities/etat/appartenance-partenaire/775688252/12f8733bb92f71dc32d82770d26a9c4e/from/775688252/to/130026024-EPE>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/775688252>;
+  mov:start "2020"^^xsd:date;
+  mov:end "9999"^^xsd:date;
+  mov:statetype "appartenance-partenaire";
+  mov:to <http://www.abes.fr/entities/organizations/siren/130026024-EPE> .
+
+<http://www.abes.fr/entities/etat/nommage/199406075/9bea7022561f96cc49231b1c5c6f6df4/from/199406075>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/199406075>;
+  mov:start "1966"^^xsd:date;
+  mov:end "2018"^^xsd:date;
+  mov:statetype "nommage";
+  mov:nomCible "ENS Cachan" .
+
+<http://www.abes.fr/entities/etat/nommage/199406075/f1de74f03f4b4751b77805c10ab00e3f/from/199406075>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/199406075>;
+  mov:start "2019"^^xsd:date;
+  mov:end "9999"^^xsd:date;
+  mov:statetype "nommage";
+  mov:nomCible "ENS Saclay" .
+
+<http://www.abes.fr/entities/etat/delegation-docelec/199406075/7d7ca5d2558073a83ed4ad5e3644c1c4/from/199406075/to/130026024>
+  a <http://www.abes.fr/entities/etats>;
+  mov:from <http://www.abes.fr/entities/organizations/siren/199406075>;
+  mov:start "2021"^^xsd:date;
+  mov:end "9999"^^xsd:date;
+  mov:statetype "delegation-docelec";
+  mov:to <http://www.abes.fr/entities/organizations/siren/130026024> .
