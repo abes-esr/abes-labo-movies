@@ -10,7 +10,7 @@ services:
     ports:
       - 8888:8888
     volumes:
-      - ./volumes/ipynb/:/home/jovyan/work/:rw
+      - ./volumes/ipynb/:/home/jovyan/work/:r
     environment:
       JUPYTER_ENABLE_LAB: "yes"
       JUPYTER_TOKEN: ${JUPYTER_TOKEN}
