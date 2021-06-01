@@ -10,6 +10,9 @@ En bref, cette étude interne à l'Abes vise à chercher comment modéliser au m
 - [Wikibase](./README.md#Wikibase)
 - [Virtuoso](./README.md#Virtuoso) (décision de ne plus investir sur cet outil au profit de [GraphDB](./README.md#GraphDB) le 22/03/2021)
 
+L'outil JupyterLab permettant de faciliter l'execution des requetes SPARQL est egalement utilisé :
+- [JupyterLab](./README.md#JupyterLab)
+
 ## Neo4J
 
 Contient le neo4j utilisé par l'étude.
@@ -125,6 +128,28 @@ L'image docker utilisée est la suivante : https://hub.docker.com/r/openlink/vir
 
 Remarque : une fois un paramètre modifié, il est nécessaire de relancer le conteneur docker pour que le paramètre soit pris en compte.
 
+## JupyterLab
+
+Contient une instance de [jupyter/minimal-notebook](https://hub.docker.com/r/jupyter/minimal-notebook) (image offocielle gérée par [jupyter/docker-stacks](https://github.com/jupyter/docker-stacks)) avec un [kernel SPARQL](https://github.com/paulovn/sparql-kernel) préinstallé. Le notebook [sparql.ipynb](todo) spécifique à l'étude MOVies est directement injecté dans cette instance.
+
+- L'URL de l'instance JupyterLab : http://127.0.0.1:8888/
+
+### Installation
+
+Pour lancer/créer le conteneur docker jupyterlab :
+```
+cd /srv/abes-labo-movies/jupyterlab/
+cp .env-dist .env
+# modifier .env et ajuster le mot de passe souhaité (token)
+docker-compose up -d
+```
+
+### Paramétrage
+
+Les paramètres de jupyterlab que l'on peut injecter sont décrits ici : https://jupyter-notebook.readthedocs.io/en/stable/config.html#options
+Nous en injectons un dans notre docker-compose.yml : `--NotebookApp.allow_remote_access` qui permet d'acceder à l'application depuis tout le réseau.
+
+Le second paramètre que nous personnalisons est JUPYTER_TOKEN qui lui est réglable dans `.env` au moment de l'installation.
 
 
 ## Aide docker

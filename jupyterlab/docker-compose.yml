@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+
+  movies-jupyterlab:
+    build: ./image/
+    image: movies-jupyterlab:1.0.0
+    container_name: movies-jupyterlab
+    restart: unless-stopped
+    ports:
+      - 8888:8888
+    volumes:
+      - ./volumes/ipynb/:/home/jovyan/work/:r
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+      JUPYTER_TOKEN: ${JUPYTER_TOKEN}
+    command: >
+      start-notebook.sh --NotebookApp.allow_remote_access=true
