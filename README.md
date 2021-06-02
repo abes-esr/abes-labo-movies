@@ -130,9 +130,16 @@ Remarque : une fois un paramètre modifié, il est nécessaire de relancer le co
 
 ## JupyterLab
 
-Contient une instance de [jupyter/minimal-notebook](https://hub.docker.com/r/jupyter/minimal-notebook) (image offocielle gérée par [jupyter/docker-stacks](https://github.com/jupyter/docker-stacks)) avec un [kernel SPARQL](https://github.com/paulovn/sparql-kernel) préinstallé. Le notebook [sparql.ipynb](todo) spécifique à l'étude MOVies est directement injecté dans cette instance.
+Contient une instance de [jupyter/minimal-notebook](https://hub.docker.com/r/jupyter/minimal-notebook) (image offocielle gérée par [jupyter/docker-stacks](https://github.com/jupyter/docker-stacks)) avec un [kernel SPARQL](https://github.com/paulovn/sparql-kernel) préinstallé. Le notebook [sparql.ipynb](https://github.com/abes-esr/abes-labo-movies/blob/main/data/ipynb/sparql.ipynb) spécifique à l'étude MOVies est directement injecté dans cette instance.
 
 - L'URL de l'instance JupyterLab : http://127.0.0.1:8888/
+
+Le plugin [jupyterlab-git](https://github.com/jupyterlab/jupyterlab-git) est pré-installé sur l'instance et permet de faire des modifications versionnées sur le fichier ``sparql.ipynb``. Pour savoir comment l'utiliser, voici une petite vidéo tutoriel :
+
+
+https://user-images.githubusercontent.com/328244/120461387-41211880-c39a-11eb-8308-c964f3e460d8.mp4
+
+
 
 ### Installation
 
