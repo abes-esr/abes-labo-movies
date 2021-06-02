@@ -1,7 +1,3 @@
-// drops the graph
-MATCH (n)
-DETACH DELETE n;
-
 CALL n10s.graphconfig.init({handleVocabUris: "IGNORE"});
 
 // loads data from GraphDB with a construct query
@@ -9,7 +5,7 @@ CALL n10s.rdf.import.fetch("http://labo-vm-2.v202.abes.fr:7200/repositories/men-
   handleVocabUris: "IGNORE",
   typesToLabels: false,
   headerParams: { Accept: "application/ld+json", infer: "true", sameAs: "true"},
-  payload: "query=" + apoc.text.urlencode("PREFIX owl:<http://www.w3.org/2002/07/owl#> PREFIX paysage: <http://paysage.mesri.fr/structures/> PREFIX wdt:<http://www.wikidata.org/prop/direct/> PREFIX skos:<http://www.w3.org/2004/02/skos/core#> PREFIX ppn: <http://www.abes.fr/entities/organizations/ppn/> PREFIX etats:<http://www.abes.fr/entities/etats/> PREFIX foaf: <http://xmlns.com/foaf/0.1/> CONSTRUCT WHERE { ?s ?x ?z. }")
+  payload: "query=" + apoc.text.urlencode("PREFIX owl:<http://www.w3.org/2002/07/owl#> PREFIX paysage: <http://paysage.mesri.fr/structures/> PREFIX wdt:<http://www.wikidata.org/prop/direct/> PREFIX skos:<http://www.w3.org/2004/02/skos/core#> PREFIX ppn: <http://www.abes.fr/entities/organizations/ppn/> PREFIX etats:<http://www.abes.fr/entities/etats/> PREFIX foaf: <http://xmlns.com/foaf/0.1/> CONSTRUCT WHERE { ?s ?p ?o. }")
 });
 
 // loads prefixes
