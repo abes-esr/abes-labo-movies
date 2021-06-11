@@ -1,0 +1,2338 @@
+@base <http://www.abes.fr/doctorat/> .
+@prefix ppn: <http://www.abes.fr/entities/organizations/ppn/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mov: <http://www.abes.fr/vocabularies/movies#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ppn:139408088 a foaf:Organization;
+  foaf:name "AgroParisTech"@fr;
+  mov:codeEtabid "AGPT" .
+
+</entities/etats/39f0615d482d632921b20eeb172dfe68198911a4> a mov:Habilitation;
+  mov:from ppn:139408088;
+  mov:start "2006-12-13"^^xsd:date;
+  mov:end "2015-08-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000245929/> .
+
+ppn:026603136 a foaf:Organization;
+  foaf:name "Antilles-Guyane"@fr;
+  mov:codeEtabid "AGUY" .
+
+</entities/etats/50a163e562538354424125a0cbc60c23b542ab12> a mov:Habilitation;
+  mov:from ppn:026603136;
+  mov:start "???"^^xsd:date;
+  mov:end "2015-06-25"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000699264> .
+
+ppn:026403781 a foaf:Organization;
+  foaf:name "Aix-Marseille 1"@fr;
+  mov:codeEtabid "AIX1" .
+
+</entities/etats/99a58ffd966bfb4d33aca15de76517a1aee0a838> a mov:Habilitation;
+  mov:from ppn:026403781;
+  mov:start "???"^^xsd:date;
+  mov:end "2011-12-31"^^xsd:dateTime.
+
+ppn:026402882 a foaf:Organization;
+  foaf:name "Aix-Marseille 2"@fr;
+  mov:codeEtabid "AIX2" .
+
+</entities/etats/8238fac059256d393d4d315ac9275b042c870b89> a mov:Habilitation;
+  mov:from ppn:026402882;
+  mov:start "???"^^xsd:date;
+  mov:end "2011-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000328643> .
+
+ppn:026403153 a foaf:Organization;
+  foaf:name "Aix-Marseille 3"@fr;
+  mov:codeEtabid "AIX3" .
+
+</entities/etats/ad6e7eba8c1f6367120899274cefda956175066e> a mov:Habilitation;
+  mov:from ppn:026403153;
+  mov:start "???"^^xsd:date;
+  mov:end "2011-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000500623> .
+
+ppn:15863621X a foaf:Organization;
+  foaf:name "Aix-Marseille"@fr;
+  mov:codeEtabid "AIXM" .
+
+</entities/etats/5e0d6aa15e81887fd6dc73918341c5ca9b2194f9> a mov:Habilitation;
+  mov:from ppn:15863621X;
+  mov:start "2012-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000024502554> .
+
+ppn:028968832 a foaf:Organization;
+  foaf:name "Alger (Période coloniale)"@fr;
+  mov:codeEtabid "ALGF" .
+
+</entities/etats/9a68630bc885fc4b9c166e1848bc4f71966d714e> a mov:Habilitation;
+  mov:from ppn:028968832;
+  mov:start "???"^^xsd:date;
+  mov:end "1962-07-05"^^xsd:dateTime.
+
+ppn:026403714 a foaf:Organization;
+  foaf:name "Amiens"@fr;
+  mov:codeEtabid "AMIE" .
+
+</entities/etats/ea165cfce6e5bf6acabb15c6650c1e7a53d54a13> a mov:Habilitation;
+  mov:from ppn:026403714;
+  mov:start "1971-06-29"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000853165> .
+
+ppn:026402920 a foaf:Organization;
+  foaf:name "Angers"@fr;
+  mov:codeEtabid "ANGE" .
+
+</entities/etats/10ba3ae6650834efe1991ff6c5a56095841e108a> a mov:Habilitation;
+  mov:from ppn:026402920;
+  mov:start "1971-10-25"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000336401> .
+
+ppn:187841578 a foaf:Organization;
+  foaf:name "Antilles"@fr;
+  mov:codeEtabid "ANTI" .
+
+</entities/etats/5e4278067716f67dc4e4ce0047960ffc03ed185a> a mov:Habilitation;
+  mov:from ppn:187841578;
+  mov:start "2015-06-25"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:034634894 a foaf:Organization;
+  foaf:name "Artois"@fr;
+  mov:codeEtabid "ARTO" .
+
+</entities/etats/7421f66245519b497f80b8003b40d00d133c48c1> a mov:Habilitation;
+  mov:from ppn:034634894;
+  mov:start "1991-11-07"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000355616> .
+
+ppn:026369044 a foaf:Organization;
+  foaf:name "Avignon"@fr;
+  mov:codeEtabid "AVIG" .
+
+</entities/etats/4960024b2f106943aa10981630490c393830b325> a mov:Habilitation;
+  mov:from ppn:026369044;
+  mov:start "1984-07-17"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:185433669 a foaf:Organization;
+  foaf:name "Côte d'Azur (COMUE)"@fr;
+  mov:codeEtabid "AZUR" .
+
+</entities/etats/c1fba056a399446ffa43a0ea8fe249a8ec1c2ea4> a mov:Habilitation;
+  mov:from ppn:185433669;
+  mov:start "2016-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:068859813 a foaf:Organization;
+  foaf:name "Belfort Montbéliard"@fr;
+  mov:codeEtabid "BELF" .
+
+</entities/etats/0b4ae3918b7a1cd0cc73760cafa0ed5eaf5e073f> a mov:Habilitation;
+  mov:from ppn:068859813;
+  mov:start "2000-08-21"^^xsd:date;
+  mov:end "2016-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000209137/> .
+
+ppn:026403188 a foaf:Organization;
+  foaf:name "Besançon"@fr;
+  mov:codeEtabid "BESA" .
+
+</entities/etats/e7c8f219fafb585be292c8241ac3a2a89ebe44d9> a mov:Habilitation;
+  mov:from ppn:026403188;
+  mov:start "1968-01-01"^^xsd:date;
+  mov:end "2016-12-31"^^xsd:dateTime.
+
+ppn:027548341 a foaf:Organization;
+  foaf:name "Bordeaux 1"@fr;
+  mov:codeEtabid "BOR1" .
+
+</entities/etats/6872169f3f515e9d517a182be0d4df94bfcc6308> a mov:Habilitation;
+  mov:from ppn:027548341;
+  mov:start "???"^^xsd:date;
+  mov:end "2013-12-31"^^xsd:dateTime.
+
+ppn:026403005 a foaf:Organization;
+  foaf:name "Bordeaux 2"@fr;
+  mov:codeEtabid "BOR2" .
+
+</entities/etats/3262afae56d4e7cdaff11fa343cbcfb3b2c3d922> a mov:Habilitation;
+  mov:from ppn:026403005;
+  mov:start "???"^^xsd:date;
+  mov:end "2013-12-31"^^xsd:dateTime.
+
+ppn:027548392 a foaf:Organization;
+  foaf:name "Bordeaux 3"@fr;
+  mov:codeEtabid "BOR3" .
+
+</entities/etats/a3d019e993f388972cb224720e0cd995e4631879> a mov:Habilitation;
+  mov:from ppn:027548392;
+  mov:start "???"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:034137823 a foaf:Organization;
+  foaf:name "Bordeaux 4"@fr;
+  mov:codeEtabid "BOR4" .
+
+</entities/etats/900fa190254436ccd8c46adbfd56037a844dcff4> a mov:Habilitation;
+  mov:from ppn:034137823;
+  mov:start "???"^^xsd:date;
+  mov:end "2013-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000168265/> .
+
+ppn:175206562 a foaf:Organization;
+  foaf:name "Bordeaux"@fr;
+  mov:codeEtabid "BORD" .
+
+</entities/etats/c8cf4806a7e7ef6b8cf9a31766665f08a189b34b> a mov:Habilitation;
+  mov:from ppn:175206562;
+  mov:start "2014-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000027927174> .
+
+ppn:030142199 a foaf:Organization;
+  foaf:name "Bordeaux (1441-1970)"@fr;
+  mov:codeEtabid "BORU" .
+
+</entities/etats/9a4892ef5553185ad67cd8de8e14248399951824> a mov:Habilitation;
+  mov:from ppn:030142199;
+  mov:start "1441-06-07"^^xsd:date;
+  mov:end "1970-11-13"^^xsd:dateTime.
+
+ppn:026403021 a foaf:Organization;
+  foaf:name "Brest - Bretagne occidentale"@fr;
+  mov:codeEtabid "BRES" .
+
+</entities/etats/5882cd617cdfca6071feb480c3581715b41d5b14> a mov:Habilitation;
+  mov:from ppn:026403021;
+  mov:start "1975-08-28"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026403064 a foaf:Organization;
+  foaf:name "Caen"@fr;
+  mov:codeEtabid "CAEN" .
+
+</entities/etats/a0c6b696936323e2ab2fa4a2208dce76a4a317e4> a mov:Habilitation;
+  mov:from ppn:026403064;
+  mov:start "1432-01-01"^^xsd:date;
+  mov:end "2016-12-31"^^xsd:dateTime.
+
+ppn:03463486X a foaf:Organization;
+  foaf:name "Cergy-Pontoise"@fr;
+  mov:codeEtabid "CERG" .
+
+</entities/etats/0096cea7247bd98f2cb891e1bf856a13e6448c86> a mov:Habilitation;
+  mov:from ppn:03463486X;
+  mov:start "1993-01-01"^^xsd:date;
+  mov:end "2019-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000720555> .
+
+ppn:026369125 a foaf:Organization;
+  foaf:name "Chambéry"@fr;
+  mov:codeEtabid "CHAM" .
+
+</entities/etats/4509a9aed64dd20aaf73748389cfaa8244a58550> a mov:Habilitation;
+  mov:from ppn:026369125;
+  mov:start "1979-06-27"^^xsd:date;
+  mov:end "2010-10-31"^^xsd:dateTime.
+
+</entities/etats/bf58e37cd0da90c6471eafdfe7d1cc4377e0bb7a> a mov:Habilitation;
+  mov:from ppn:026369125;
+  mov:start "2019-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:028032829 a foaf:Organization;
+  foaf:name "Clermont-Ferrand 1"@fr;
+  mov:codeEtabid "CLF1" .
+
+</entities/etats/df4ba73ff5a147eced9ab18e9bc81eff09ab01d3> a mov:Habilitation;
+  mov:from ppn:028032829;
+  mov:start "1976-01-01"^^xsd:date;
+  mov:end "2016-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000502261> .
+
+ppn:026403102 a foaf:Organization;
+  foaf:name "Clermont-Ferrand 2"@fr;
+  mov:codeEtabid "CLF2" .
+
+</entities/etats/126d7291ddae43a6015e6a14b077d652b66e8df4> a mov:Habilitation;
+  mov:from ppn:026403102;
+  mov:start "1976-01-01"^^xsd:date;
+  mov:end "2016-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000502261> .
+
+ppn:196200032 a foaf:Organization;
+  foaf:name "Clermont Auvergne"@fr;
+  mov:codeEtabid "CLFA" .
+
+</entities/etats/ac5ce4b3a7f59ad2bf856a125fe031c3123b8e29> a mov:Habilitation;
+  mov:from ppn:196200032;
+  mov:start "2017-01-01"^^xsd:date;
+  mov:end "2020-12-31"^^xsd:dateTime.
+
+ppn:030142865 a foaf:Organization;
+  foaf:name "Clermont-Ferrand"@fr;
+  mov:codeEtabid "CLFD" .
+
+</entities/etats/7350bdcf47055ebe860d0cf7ecabd9a4a68f857e> a mov:Habilitation;
+  mov:from ppn:030142865;
+  mov:start "???"^^xsd:date;
+  mov:end "1976-03-15"^^xsd:dateTime.
+
+ppn:027404978 a foaf:Organization;
+  foaf:name "Conservatoire national des arts et métiers"@fr;
+  mov:codeEtabid "CNAM" .
+
+</entities/etats/24e218fa359ee1f37241705c0401ff74a18c8f95> a mov:Habilitation;
+  mov:from ppn:027404978;
+  mov:start "1985-06-27"^^xsd:date;
+  mov:end "2020-01-01 "^^xsd:dateTime.
+
+ppn:026570564 a foaf:Organization;
+  foaf:name "Compiègne"@fr;
+  mov:codeEtabid "COMP" .
+
+</entities/etats/8c58f4216e521df73ffc163723ddeb3e5acc4fbf> a mov:Habilitation;
+  mov:from ppn:026570564;
+  mov:start "1985-06-27"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000860105> .
+
+ppn:029473284 a foaf:Organization;
+  foaf:name "Corte"@fr;
+  mov:codeEtabid "CORT" .
+
+</entities/etats/d7b690ff5b0897cca4a0c1788dce899b8d42dee7> a mov:Habilitation;
+  mov:from ppn:029473284;
+  mov:start "???"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000500642> .
+
+ppn:184443237 a foaf:Organization;
+  foaf:name "CentraleSupélec"@fr;
+  mov:codeEtabid "CSUP" .
+
+</entities/etats/13e2bcee27bbc4906d8ed56a7284a0b095f36fdb> a mov:Habilitation;
+  mov:from ppn:184443237;
+  mov:start "2015-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:028237080 a foaf:Organization;
+  foaf:name "Ecole normale supérieure - Cachan"@fr;
+  mov:codeEtabid "DENS" .
+
+</entities/etats/01e75e95212b6eb887057ea1fe616b56f752070e> a mov:Habilitation;
+  mov:from ppn:028237080;
+  mov:start "1992-01-01"^^xsd:date;
+  mov:end "2015-08-31"^^xsd:dateTime.
+
+ppn:02819005X a foaf:Organization;
+  foaf:name "Dijon"@fr;
+  mov:codeEtabid "DIJO" .
+
+</entities/etats/0f454e6c81acba507bdf499308da2860d71ca285> a mov:Habilitation;
+  mov:from ppn:02819005X;
+  mov:start "???"^^xsd:date;
+  mov:end "2016-12-31"^^xsd:dateTime.
+
+ppn:030969379 a foaf:Organization;
+  foaf:name "Littoral Dunkerque"@fr;
+  mov:codeEtabid "DUNK" .
+
+</entities/etats/e1d0ac71d189d82c4bf791e52497b68b91011953> a mov:Habilitation;
+  mov:from ppn:030969379;
+  mov:start "1991-11-07"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000538668> .
+
+ppn:027960250 a foaf:Organization;
+  foaf:name "Ecole centrale des arts et manufactures de Paris"@fr;
+  mov:codeEtabid "ECAP" .
+
+</entities/etats/f2bf4086be18ae9cdfa45b5b6d2bcda75cdba6e8> a mov:Habilitation;
+  mov:from ppn:027960250;
+  mov:start "1985-06-27"^^xsd:date;
+  mov:end "2015-08-31"^^xsd:dateTime.
+
+ppn:033894221 a foaf:Organization;
+  foaf:name "Ecole centrale de Lyon"@fr;
+  mov:codeEtabid "ECDL" .
+
+</entities/etats/ae32ad8899e60f195ba97605592af8b6f5c53bbc> a mov:Habilitation;
+  mov:from ppn:033894221;
+  mov:start "1985-06-27"^^xsd:date;
+  mov:end "2015-02-28"^^xsd:dateTime.
+
+ppn:163078998 a foaf:Organization;
+  foaf:name "Ecole centrale de Marseille"@fr;
+  mov:codeEtabid "ECDM" .
+
+</entities/etats/8c6b47813f7a28038fe31ec3da7fb919b0a77c9b> a mov:Habilitation;
+  mov:from ppn:163078998;
+  mov:start "???"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:03063525X a foaf:Organization;
+  foaf:name "Ecole centrale de Nantes"@fr;
+  mov:codeEtabid "ECDN" .
+
+</entities/etats/8d7df156d71de6f1a5d9258ff12d198d12ba9475> a mov:Habilitation;
+  mov:from ppn:03063525X;
+  mov:start "2008-10-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:027964361 a foaf:Organization;
+  foaf:name "Ecole centrale de Lille"@fr;
+  mov:codeEtabid "ECLI" .
+
+</entities/etats/68422ceffadcea2431b08f75bf5fd9d285c9fda9> a mov:Habilitation;
+  mov:from ppn:027964361;
+  mov:start "2006-08-24"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:027321118 a foaf:Organization;
+  foaf:name "Ecole des hautes études commerciales"@fr;
+  mov:codeEtabid "EHEC" .
+
+</entities/etats/05e56a9517a82fd31356a2c221dccf2b77016825> a mov:Habilitation;
+  mov:from ppn:027321118;
+  mov:start "1985-06-27"^^xsd:date;
+  mov:end "2015-08-31"^^xsd:dateTime.
+
+</entities/etats/574854b1d90402c1e921b5b4d85cadcf6d76cf0c> a mov:Habilitation;
+  mov:from ppn:027321118;
+  mov:start "2019-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026374889 a foaf:Organization;
+  foaf:name "Ecole des hautes études en sciences sociales"@fr;
+  mov:codeEtabid "EHES" .
+
+</entities/etats/394f4af3c2cd866f2d0b41b59ab7f9ad717fbc35> a mov:Habilitation;
+  mov:from ppn:026374889;
+  mov:start "1985-06-27"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:034751386 a foaf:Organization;
+  foaf:name "Ecole nationale supérieure des industries alimentaires - Massy"@fr;
+  mov:codeEtabid "EIAA" .
+
+</entities/etats/36bcb9e431bf98176944bb2bcaf6bc8e88e2626e> a mov:Habilitation;
+  mov:from ppn:034751386;
+  mov:start "???"^^xsd:date;
+  mov:end "2006-12-31"^^xsd:dateTime.
+
+ppn:035022116 a foaf:Organization;
+  foaf:name "Ecole nationale des Mines d'Albi-Carmaux"@fr;
+  mov:codeEtabid "EMAC" .
+
+</entities/etats/150223467f589c836ab71e581f6b210db48cae10> a mov:Habilitation;
+  mov:from ppn:035022116;
+  mov:start "2011-11-09"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:032486111 a foaf:Organization;
+  foaf:name "Ecole des Mines d'Alès"@fr;
+  mov:codeEtabid "EMAL" .
+
+</entities/etats/fd8fb74967fba4f4cf1d723511f4afe2f378febc> a mov:Habilitation;
+  mov:from ppn:032486111;
+  mov:start "2015-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:030937809 a foaf:Organization;
+  foaf:name "Ecole des Mines de Douai"@fr;
+  mov:codeEtabid "EMDO" .
+
+</entities/etats/c3b1f3c41d2e210670db3c9d44ec31e8f4745d8e> a mov:Habilitation;
+  mov:from ppn:030937809;
+  mov:start "2015-09-01"^^xsd:date;
+  mov:end "2016-12-31"^^xsd:dateTime.
+
+ppn:033236720 a foaf:Organization;
+  foaf:name "Ecole des Mines de Nantes"@fr;
+  mov:codeEtabid "EMNA" .
+
+</entities/etats/ca8feacbf50104160f2c82f46c64a4a6dd6865cf> a mov:Habilitation;
+  mov:from ppn:033236720;
+  mov:start "2008-07-08"^^xsd:date;
+  mov:end "2016-12-31"^^xsd:dateTime.
+
+ppn:028028694 a foaf:Organization;
+  foaf:name "Ecole nationale supérieure des mines - Saint-Etienne"@fr;
+  mov:codeEtabid "EMSE" .
+
+</entities/etats/97f94ac6f026aefabb00f815b1c3aaa491b3fe84> a mov:Habilitation;
+  mov:from ppn:028028694;
+  mov:start "2000-08-21"^^xsd:date;
+  mov:end "2015-02-28"^^xsd:dateTime.
+
+ppn:02637515X a foaf:Organization;
+  foaf:name "Ecole nationale supérieure d'arts et métiers"@fr;
+  mov:codeEtabid "ENAM" .
+
+</entities/etats/c8d337659459c444fedb2541eef96619d5f305ef> a mov:Habilitation;
+  mov:from ppn:02637515X;
+  mov:start "1979-01-01"^^xsd:date;
+  mov:end "2019-12-31"^^xsd:dateTime.
+
+ppn:027956768 a foaf:Organization;
+  foaf:name "Ecole nationale supérieure de chimie de Montpellier"@fr;
+  mov:codeEtabid "ENCM" .
+
+</entities/etats/e1742c231321b124ea289e14d65e48eda1a51bcc> a mov:Habilitation;
+  mov:from ppn:027956768;
+  mov:start "2007-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026375052 a foaf:Organization;
+  foaf:name "Ecole nationale des chartes"@fr;
+  mov:codeEtabid "ENCP" .
+
+</entities/etats/6229bd3c62c16540d0473ccb94c244596e4e8549> a mov:Habilitation;
+  mov:from ppn:026375052;
+  mov:start "2010-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:081711883 a foaf:Organization;
+  foaf:name "Ecole nationale supérieure de chimie de Rennes"@fr;
+  mov:codeEtabid "ENCR" .
+
+</entities/etats/e8d7636f9fbedfe14dd19f9f566d0692b010b41d> a mov:Habilitation;
+  mov:from ppn:081711883;
+  mov:start "2008-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026436930 a foaf:Organization;
+  foaf:name "Ecole nationale du génie rural, des eaux et forêts"@fr;
+  mov:codeEtabid "ENGR" .
+
+</entities/etats/7fa6bca629dda423a9968c15b21d587dc35c2fd3> a mov:Habilitation;
+  mov:from ppn:026436930;
+  mov:start "1988-03-09"^^xsd:date;
+  mov:end "2006-12-31"^^xsd:dateTime.
+
+ppn:120796899 a foaf:Organization;
+  foaf:name "Ecole nationale d'ingénieurs de Brest"@fr;
+  mov:codeEtabid "ENIB" .
+
+</entities/etats/2d890795cc7ef0640180c69255e58fd56eb0569f> a mov:Habilitation;
+  mov:from ppn:120796899;
+  mov:start "2018-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:030267676 a foaf:Organization;
+  foaf:name "Ecole nationale d'ingénieurs de saint-Etienne"@fr;
+  mov:codeEtabid "ENIS" .
+
+</entities/etats/094d9f6d376a156d404209837a3b9149078df8aa> a mov:Habilitation;
+  mov:from ppn:030267676;
+  mov:start "2007-09-02"^^xsd:date;
+  mov:end "2015-02-28"^^xsd:dateTime.
+
+ppn:026375249 a foaf:Organization;
+  foaf:name "Ecole nationale supérieure des mines - Paris"@fr;
+  mov:codeEtabid "ENMP" .
+
+</entities/etats/0d2b920ea35d2087de77c9986545fefc8b090e8a> a mov:Habilitation;
+  mov:from ppn:026375249;
+  mov:start "1985-06-27"^^xsd:date;
+  mov:end "2015-12-31"^^xsd:dateTime.
+
+ppn:026375060 a foaf:Organization;
+  foaf:name "Ecole nationale des ponts et chaussées"@fr;
+  mov:codeEtabid "ENPC" .
+
+</entities/etats/0cfd39d1d4b8801163fc8f677177f8d69f54d994> a mov:Habilitation;
+  mov:from ppn:026375060;
+  mov:start "1985-06-27"^^xsd:date;
+  mov:end "2007-12-31"^^xsd:dateTime.
+
+ppn:026523477 a foaf:Organization;
+  foaf:name "Ecole nationale supérieure d'agronomie de Montpellier"@fr;
+  mov:codeEtabid "ENSA" .
+
+</entities/etats/829e4cebd688f0d9e106ddb0c1a85231ff2b4e7e> a mov:Habilitation;
+  mov:from ppn:026523477;
+  mov:start "1988-03-09"^^xsd:date;
+  mov:end "2007-12-31"^^xsd:dateTime.
+
+ppn:077755138 a foaf:Organization;
+  foaf:name "École normale supérieure lettres et sciences humaines - Lyon (anciennement École normale supérieure lettres et sciences humaines - Fontenay-Saint-Cloud"@fr;
+  mov:codeEtabid "ENSF" .
+
+</entities/etats/cbcd20bf3c86a97b3d1af50228a64599f861710b> a mov:Habilitation;
+  mov:from ppn:077755138;
+  mov:start "2000-09-01"^^xsd:date;
+  mov:end "2009-12-31"^^xsd:dateTime.
+
+ppn:149154992 a foaf:Organization;
+  foaf:name "École normale supérieure de Lyon"@fr;
+  mov:codeEtabid "ENSL" .
+
+</entities/etats/e0a9b16a1072d6cb90f9fd8f6901aa133d74803c> a mov:Habilitation;
+  mov:from ppn:149154992;
+  mov:start "2010-01-01"^^xsd:date;
+  mov:end "2015-02-28"^^xsd:dateTime.
+
+ppn:17864577X a foaf:Organization;
+  foaf:name "Ecole nationale supérieure de Rennes"@fr;
+  mov:codeEtabid "ENSR" .
+
+</entities/etats/32bad01120495020cf05652286801a42693c0d98> a mov:Habilitation;
+  mov:from ppn:17864577X;
+  mov:start "2013-10-17"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026375273 a foaf:Organization;
+  foaf:name "Ecole nationale supérieure des télécommunications"@fr;
+  mov:codeEtabid "ENST" .
+
+</entities/etats/0a17a028e067071730d362800dad2bfb3259790d> a mov:Habilitation;
+  mov:from ppn:026375273;
+  mov:start "1985-06-27"^^xsd:date;
+  mov:end "2015-08-31"^^xsd:dateTime.
+
+ppn:031738419 a foaf:Organization;
+  foaf:name "Ecole normale supérieure- Paris (rue d'Ulm)"@fr;
+  mov:codeEtabid "ENSU" .
+
+</entities/etats/f5045ed56c6d61a380d59355eed5c69b101d9df6> a mov:Habilitation;
+  mov:from ppn:031738419;
+  mov:start "2011-01-01"^^xsd:date;
+  mov:end "2015-12-31"^^xsd:dateTime.
+
+ppn:177263660 a foaf:Organization;
+  foaf:name "Ecole nationale supérieure de techniques avancées Bretagne"@fr;
+  mov:codeEtabid "ENTA" .
+
+</entities/etats/71b7f99b0270106f8fa2166f770fa222f32c2804> a mov:Habilitation;
+  mov:from ppn:177263660;
+  mov:start "2017-09-01 (OU 2018-09-01???)"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:027941426 a foaf:Organization;
+  foaf:name "Ecole nationale des travaux publics"@fr;
+  mov:codeEtabid "ENTP" .
+
+</entities/etats/41665a8611c98f1bb952a95ab94cf4f82988ef88> a mov:Habilitation;
+  mov:from ppn:027941426;
+  mov:start "2014"^^xsd:date;
+  mov:end "2015-02-28"^^xsd:dateTime.
+
+ppn:026375478 a foaf:Organization;
+  foaf:name "Ecole pratique des hautes études"@fr;
+  mov:codeEtabid "EPHE" .
+
+</entities/etats/d956b1ba76949ac6b37f3e5e0ae1e8d57e985e9d> a mov:Habilitation;
+  mov:from ppn:026375478;
+  mov:start "1985-06-27"^^xsd:date;
+  mov:end "2016-12-31"^^xsd:dateTime.
+
+ppn:027309320 a foaf:Organization;
+  foaf:name "Ecole polytechnique"@fr;
+  mov:codeEtabid "EPXX" .
+
+</entities/etats/0cfaca7fecb92a5b53e6c60f02330ab02705f13b> a mov:Habilitation;
+  mov:from ppn:027309320;
+  mov:start "1985-06-27"^^xsd:date;
+  mov:end "2015-08-31"^^xsd:dateTime.
+
+ppn:159330114 a foaf:Organization;
+  foaf:name "Institut supérieur de l'aéronautique et de l'espace"@fr;
+  mov:codeEtabid "ESAE" .
+
+</entities/etats/24e0090fb7ed960d73f32ae88ff99ee6308f178a> a mov:Habilitation;
+  mov:from ppn:159330114;
+  mov:start "2007-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:028029429 a foaf:Organization;
+  foaf:name "Ecole supérieure des sciences économiques et commerciales"@fr;
+  mov:codeEtabid "ESEC" .
+
+</entities/etats/4f0f114ef35b21f26926a3e78bfe5d8c63a7956e> a mov:Habilitation;
+  mov:from ppn:028029429;
+  mov:start "2010-08-06"^^xsd:date;
+  mov:end "2015-02-28 ???"^^xsd:dateTime.
+
+ppn:028024400 a foaf:Organization;
+  foaf:name "Ecole nationale supérieure de mécanique et d'aérotechnique"@fr;
+  mov:codeEtabid "ESMA" .
+
+</entities/etats/05ede1e5708c221070d774aa63fcf26670a88497> a mov:Habilitation;
+  mov:from ppn:028024400;
+  mov:start "2013-02-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:028139577 a foaf:Organization;
+  foaf:name "Ecole nationale supérieure des techniques avancées"@fr;
+  mov:codeEtabid "ESTA" .
+
+</entities/etats/7df608995f50dab7d775bdde1dfdaa4c926d0ba3> a mov:Habilitation;
+  mov:from ppn:028139577;
+  mov:start "2014-01-01"^^xsd:date;
+  mov:end "2015-08-31"^^xsd:dateTime.
+
+ppn:030820529 a foaf:Organization;
+  foaf:name "Evry Val d'Essonne"@fr;
+  mov:codeEtabid "EVRY" .
+
+</entities/etats/e6fdea6aa03a2291c518e0ea60136737dacf8e61> a mov:Habilitation;
+  mov:from ppn:030820529;
+  mov:start "1993"^^xsd:date;
+  mov:end "2015-08-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000539149> .
+
+ppn:029884942 a foaf:Organization;
+  foaf:name "Faculté de droit et sciences économiques de Grenoble"@fr;
+  mov:codeEtabid "GFDE" .
+
+</entities/etats/2c1bc1ed61a7619b6d84942e8e33e8285c587441> a mov:Habilitation;
+  mov:from ppn:029884942;
+  mov:start "???"^^xsd:date;
+  mov:end "1969-12-31"^^xsd:dateTime.
+
+ppn:072323965 a foaf:Organization;
+  foaf:name "Faculté des lettres et sciences humaines de Grenoble"@fr;
+  mov:codeEtabid "GFLH" .
+
+</entities/etats/7e065edee8ed6e7c4847e61dc079410e67503d3f> a mov:Habilitation;
+  mov:from ppn:072323965;
+  mov:start "???"^^xsd:date;
+  mov:end "1969-12-31"^^xsd:dateTime.
+
+ppn:026569477 a foaf:Organization;
+  foaf:name "Institut de physique du globe"@fr;
+  mov:codeEtabid "GLOB" .
+
+</entities/etats/fb15676a06e4cf6612e4e2a94a89a89b754b45b7> a mov:Habilitation;
+  mov:from ppn:026569477;
+  mov:start "1996"^^xsd:date;
+  mov:end "2014-12-31"^^xsd:dateTime.
+
+ppn:026404796 a foaf:Organization;
+  foaf:name "Grenoble 1"@fr;
+  mov:codeEtabid "GRE1" .
+
+</entities/etats/dc71c87b1c6062d869186f2e697d3dcf8492a694> a mov:Habilitation;
+  mov:from ppn:026404796;
+  mov:start "???"^^xsd:date;
+  mov:end "2010-10-31"^^xsd:dateTime.
+
+ppn:02640432X a foaf:Organization;
+  foaf:name "Grenoble 2"@fr;
+  mov:codeEtabid "GRE2" .
+
+</entities/etats/d8b411b1ce5e7ea8fc477780dbf1a184211d89ce> a mov:Habilitation;
+  mov:from ppn:02640432X;
+  mov:start "???"^^xsd:date;
+  mov:end "2010-10-31"^^xsd:dateTime.
+
+ppn:026404125 a foaf:Organization;
+  foaf:name "Grenoble 3"@fr;
+  mov:codeEtabid "GRE3" .
+
+</entities/etats/c5c895a761275ce7702ef0185d592832e7a06dc1> a mov:Habilitation;
+  mov:from ppn:026404125;
+  mov:start "???"^^xsd:date;
+  mov:end "2010-10-31"^^xsd:dateTime.
+
+ppn:184668794 a foaf:Organization;
+  foaf:name "Grenoble COMUE"@fr;
+  mov:codeEtabid "GREA" .
+
+</entities/etats/82fd591745cea01f58c97fcf65c5b638ef67e38e> a mov:Habilitation;
+  mov:from ppn:184668794;
+  mov:start "2015-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:030327202 a foaf:Organization;
+  foaf:name "Grenoble PRES"@fr;
+  mov:codeEtabid "GREN" .
+
+</entities/etats/cf2073808ea2644ae6ec80c02c0277b70fcc5eca> a mov:Habilitation;
+  mov:from ppn:030327202;
+  mov:start "2010-11-01"^^xsd:date;
+  mov:end "2014-12-31"^^xsd:dateTime.
+
+ppn:155569678 a foaf:Organization;
+  foaf:name "Faculté de droit de Grenoble"@fr;
+  mov:codeEtabid "GRFD" .
+
+</entities/etats/ded65cd039fa260b63592c31e028346253d0d972> a mov:Habilitation;
+  mov:from ppn:155569678;
+  mov:start "???"^^xsd:date;
+  mov:end "1895-12-31"^^xsd:dateTime.
+
+ppn:155078771 a foaf:Organization;
+  foaf:name "Faculté de Lettres de Grenoble"@fr;
+  mov:codeEtabid "GRFL" .
+
+</entities/etats/fd49dff2122c9459b186bb290570936f05211716> a mov:Habilitation;
+  mov:from ppn:155078771;
+  mov:start "???"^^xsd:date;
+  mov:end "1895-12-31"^^xsd:dateTime.
+
+ppn:238277429 a foaf:Organization;
+  foaf:name "Hautes Ecoles Sorbonne Arts et Métiers Université (COMUE)"@fr;
+  mov:codeEtabid "HESA" .
+
+</entities/etats/97a0986d9a4a0982e831036301a4723dbedf5c54> a mov:Habilitation;
+  mov:from ppn:238277429;
+  mov:start "2020-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:notes "Sauf ED EDITE (CNAM)".
+
+ppn:196213428 a foaf:Organization;
+  foaf:name "Institut agronomique, vétérinaire et forestier de France"@fr;
+  mov:codeEtabid "IAVF" .
+
+</entities/etats/694477814af2c3e28999658d3a9455e2c546085c> a mov:Habilitation;
+  mov:from ppn:196213428;
+  mov:start "2016-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:027918459 a foaf:Organization;
+  foaf:name "Institut d'études politiques - Paris"@fr;
+  mov:codeEtabid "IEPP" .
+
+</entities/etats/179ea88075eb5d7dd21c99b06ba0b27a5f3f2333> a mov:Habilitation;
+  mov:from ppn:027918459;
+  mov:start "1975-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:202743233 a foaf:Organization;
+  foaf:name "Ecole nationale supérieure Mines-Télécom Atlantique Bretagne Pays de la Loire"@fr;
+  mov:codeEtabid "IMTA" .
+
+</entities/etats/ec17586ea1bdcf01d5f680c8d5aa809bee2ad846> a mov:Habilitation;
+  mov:from ppn:202743233;
+  mov:start "2017-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026388715 a foaf:Organization;
+  foaf:name "Institut national des langues et civilisation orientales (INALCO)"@fr;
+  mov:codeEtabid "INAL" .
+
+</entities/etats/f37ffc7906752793829762d0ae3f7ccf481895ab> a mov:Habilitation;
+  mov:from ppn:026388715;
+  mov:start "2019-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026387859 a foaf:Organization;
+  foaf:name "Institut national d'agronomie - Paris Grignon"@fr;
+  mov:codeEtabid "INAP" .
+
+</entities/etats/2beb369a46a3a8b129f8b6a4b057b3f0b9a50fa2> a mov:Habilitation;
+  mov:from ppn:026387859;
+  mov:start "1988-03-09"^^xsd:date;
+  mov:end "2006-12-31"^^xsd:dateTime.
+
+ppn:026388804 a foaf:Organization;
+  foaf:name "Institut national polytechnique - Grenoble"@fr;
+  mov:codeEtabid "INPG" .
+
+</entities/etats/602833c10671a2453bf295ccb7c7a77caca29d80> a mov:Habilitation;
+  mov:from ppn:026388804;
+  mov:start "???"^^xsd:date;
+  mov:end "2010-10-31"^^xsd:dateTime.
+
+ppn:026388812 a foaf:Organization;
+  foaf:name "Institut national polytechnique - Lorraine"@fr;
+  mov:codeEtabid "INPL" .
+
+</entities/etats/6148d8c499105c07c6e05df025551315c144644f> a mov:Habilitation;
+  mov:from ppn:026388812;
+  mov:start "???"^^xsd:date;
+  mov:end "2011-12-31"^^xsd:dateTime.
+
+ppn:026388820 a foaf:Organization;
+  foaf:name "Institut national polytechnique - Toulouse"@fr;
+  mov:codeEtabid "INPT" .
+
+</entities/etats/4fdcd89c42c6fd4bcd10cc210249a73239012c2b> a mov:Habilitation;
+  mov:from ppn:026388820;
+  mov:start "???"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:110047702 a foaf:Organization;
+  foaf:name "Institut d'optique théorique et appliquée"@fr;
+  mov:codeEtabid "IOTA" .
+
+</entities/etats/bfaf219805601b834926fdbf9b8edd957b632f1e> a mov:Habilitation;
+  mov:from ppn:110047702;
+  mov:start "2013-10-01"^^xsd:date;
+  mov:end "2015-08-31"^^xsd:dateTime.
+
+ppn:238327159 a foaf:Organization;
+  foaf:name "Institut Polytechnique de Paris"@fr;
+  mov:codeEtabid "IPPA" .
+
+</entities/etats/b58ea0d0a7cc1cd91720d8eeaf2c808c21317def> a mov:Habilitation;
+  mov:from ppn:238327159;
+  mov:start "2019-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:203592077 a foaf:Organization;
+  foaf:name "Institut national des sciences appliquées - Blois et Bourges"@fr;
+  mov:codeEtabid "ISAB" .
+
+</entities/etats/bfb475d0a97f82992ff66dbb7a8551f6e7b27020> a mov:Habilitation;
+  mov:from ppn:203592077;
+  mov:start "2014-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:052444724 a foaf:Organization;
+  foaf:name "Institut national des sciences appliquées - Lyon"@fr;
+  mov:codeEtabid "ISAL" .
+
+</entities/etats/04a634f29743464ffe46cb15273fbc445a0d9979> a mov:Habilitation;
+  mov:from ppn:052444724;
+  mov:start "1985-06-27"^^xsd:date;
+  mov:end "2015-02-28"^^xsd:dateTime.
+
+ppn:033364346 a foaf:Organization;
+  foaf:name "Institut national des sciences appliquées - Rouen"@fr;
+  mov:codeEtabid "ISAM" .
+
+</entities/etats/ec0fec1bffba7bebd294d49a93f775b323f578bf> a mov:Habilitation;
+  mov:from ppn:033364346;
+  mov:start "2000 ?"^^xsd:date;
+  mov:end "2016-12-31"^^xsd:dateTime.
+
+ppn:050228064 a foaf:Organization;
+  foaf:name "Institut national des sciences appliquées - Rennes"@fr;
+  mov:codeEtabid "ISAR" .
+
+</entities/etats/fd7779208918ec9359a6fa598a3bc23d4c5c221e> a mov:Habilitation;
+  mov:from ppn:050228064;
+  mov:start "1985-06-27"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026388766 a foaf:Organization;
+  foaf:name "Institut national des sciences appliquées - Toulouse"@fr;
+  mov:codeEtabid "ISAT" .
+
+</entities/etats/906d8c3ba5faee340d84b55da627767acb820aab> a mov:Habilitation;
+  mov:from ppn:026388766;
+  mov:start "1985-06-27"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026404451 a foaf:Organization;
+  foaf:name "La Réunion"@fr;
+  mov:codeEtabid "LARE" .
+
+</entities/etats/142da271b876e8f17c5e02a3c6ea3fb6cafe1ed9> a mov:Habilitation;
+  mov:from ppn:026404451;
+  mov:start "1988-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:035375043 a foaf:Organization;
+  foaf:name "La Rochelle"@fr;
+  mov:codeEtabid "LARO" .
+
+</entities/etats/7a0fb9a5a046a49f12ff572eb4f571db6d5358d5> a mov:Habilitation;
+  mov:from ppn:035375043;
+  mov:start "1993-01-20"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:031308570 a foaf:Organization;
+  foaf:name "Le Havre"@fr;
+  mov:codeEtabid "LEHA" .
+
+</entities/etats/cc958138a23305269347389f0e527cc6b3ea683b> a mov:Habilitation;
+  mov:from ppn:031308570;
+  mov:start "1984"^^xsd:date;
+  mov:end "2016-12-31"^^xsd:dateTime.
+
+ppn:026404435 a foaf:Organization;
+  foaf:name "Le Mans"@fr;
+  mov:codeEtabid "LEMA" .
+
+</entities/etats/6eb62fcec627d852dc95de992b7767e0a8c8d4ee> a mov:Habilitation;
+  mov:from ppn:026404435;
+  mov:start "1977-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:034124098 a foaf:Organization;
+  foaf:name "Faculté des sciences de Lille"@fr;
+  mov:codeEtabid "LIFS" .
+
+</entities/etats/f7abc8ee6567bf62e86cd2bc2892f2ad6045e4fd> a mov:Habilitation;
+  mov:from ppn:034124098;
+  mov:start "???"^^xsd:date;
+  mov:end "1896-07-09"^^xsd:dateTime.
+
+ppn:026404184 a foaf:Organization;
+  foaf:name "Lille 1"@fr;
+  mov:codeEtabid "LIL1" .
+
+</entities/etats/3dad3309d74e1f8bebc1f5b14e096f85e23cfdeb> a mov:Habilitation;
+  mov:from ppn:026404184;
+  mov:start "1969-12-18"^^xsd:date;
+  mov:end "2018-01-14"^^xsd:dateTime.
+
+ppn:026404524 a foaf:Organization;
+  foaf:name "Lille 3"@fr;
+  mov:codeEtabid "LIL3" .
+
+</entities/etats/c901efde70e211fc090a5afad091ec134fa77f43> a mov:Habilitation;
+  mov:from ppn:026404524;
+  mov:start "1969-12-18"^^xsd:date;
+  mov:end "2018-01-14"^^xsd:dateTime.
+
+ppn:027291340 a foaf:Organization;
+  foaf:name "Université de Lille"@fr;
+  mov:codeEtabid "LILL" .
+
+</entities/etats/040e64937be1214281b997f0d39557567a6494ee> a mov:Habilitation;
+  mov:from ppn:027291340;
+  mov:start "???"^^xsd:date;
+  mov:end "1969-12-17"^^xsd:dateTime.
+
+ppn:223446556 a foaf:Organization;
+  foaf:name "Lille"@fr;
+  mov:codeEtabid "LILU" .
+
+</entities/etats/f15808bb342bc6be9401699b1a2f552daeb84713> a mov:Habilitation;
+  mov:from ppn:223446556;
+  mov:start "2018-01-15"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026403315 a foaf:Organization;
+  foaf:name "Limoges"@fr;
+  mov:codeEtabid "LIMO" .
+
+</entities/etats/1710f3b5bc5abe0d1c57f004ad4f43657f9852f7> a mov:Habilitation;
+  mov:from ppn:026403315;
+  mov:start "???"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:05017746X a foaf:Organization;
+  foaf:name "Lorient - Bretagne sud"@fr;
+  mov:codeEtabid "LORI" .
+
+</entities/etats/5de8dbeaa07903c4bf8ce0195cd8a2d7d0ba9758> a mov:Habilitation;
+  mov:from ppn:05017746X;
+  mov:start "1999"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:157040569 a foaf:Organization;
+  foaf:name "Université de Lorraine"@fr;
+  mov:codeEtabid "LORR" .
+
+</entities/etats/fadfffb9b14420aeea55205b7c29c15f1ac3f403> a mov:Habilitation;
+  mov:from ppn:157040569;
+  mov:start "2012-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:169816079 a foaf:Organization;
+  foaf:name "Faculté de médecine et de pharmacie de Lyon"@fr;
+  mov:codeEtabid "LYFM" .
+
+</entities/etats/9b6a6bfe10df908f47cab19bebd2ba2b10f5fd3c> a mov:Habilitation;
+  mov:from ppn:169816079;
+  mov:start "???"^^xsd:date;
+  mov:end "1896-07-10"^^xsd:dateTime.
+
+ppn:169815714 a foaf:Organization;
+  foaf:name "Faculté de sciences de Lyon"@fr;
+  mov:codeEtabid "LYFS" .
+
+</entities/etats/f5ab1bf3e3a8ffadcdcbbb3d06f2e6873aa75196> a mov:Habilitation;
+  mov:from ppn:169815714;
+  mov:start "???"^^xsd:date;
+  mov:end "1896-07-10"^^xsd:dateTime.
+
+ppn:169855392 a foaf:Organization;
+  foaf:name "Ecole préparatoire de médecine et pharmacie de Lyon"@fr;
+  mov:codeEtabid "LYMP" .
+
+</entities/etats/7986329d3ac8099c0efc4b1d1cc7b45bedf6129c> a mov:Habilitation;
+  mov:from ppn:169855392;
+  mov:start "???"^^xsd:date;
+  mov:end "1874-11-08"^^xsd:dateTime.
+
+ppn:026402823 a foaf:Organization;
+  foaf:name "Lyon 1"@fr;
+  mov:codeEtabid "LYO1" .
+
+</entities/etats/909434ada03150d50e03faf81ac67cb4806a29f3> a mov:Habilitation;
+  mov:from ppn:026402823;
+  mov:start "???"^^xsd:date;
+  mov:end "2015-02-28"^^xsd:dateTime.
+
+ppn:02640334X a foaf:Organization;
+  foaf:name "Lyon 2"@fr;
+  mov:codeEtabid "LYO2" .
+
+</entities/etats/a90727031cff2872e18e5854d451b37689739b0f> a mov:Habilitation;
+  mov:from ppn:02640334X;
+  mov:start "???"^^xsd:date;
+  mov:end "2015-02-28"^^xsd:dateTime.
+
+ppn:026404494 a foaf:Organization;
+  foaf:name "Lyon 3"@fr;
+  mov:codeEtabid "LYO3" .
+
+</entities/etats/4402fe27a281d88af3e4c84aa6740f49ada527e2> a mov:Habilitation;
+  mov:from ppn:026404494;
+  mov:start "1973-07-26"^^xsd:date;
+  mov:end "2015-02-28"^^xsd:dateTime.
+
+ppn:028025261 a foaf:Organization;
+  foaf:name "Université de Lyon (1896-1969)"@fr;
+  mov:codeEtabid "LYON" .
+
+</entities/etats/a7e16cd867eddb34df3aab65f11e96c8dbaac473> a mov:Habilitation;
+  mov:from ppn:028025261;
+  mov:start "???"^^xsd:date;
+  mov:end "1969-12-04"^^xsd:dateTime.
+
+ppn:190915757 a foaf:Organization;
+  foaf:name "Lyon (COMUE)"@fr;
+  mov:codeEtabid "LYSE" .
+
+</entities/etats/2ae155103028605e91924223b58d3d89f61ccf94> a mov:Habilitation;
+  mov:from ppn:190915757;
+  mov:start "2015-03-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:030820499 a foaf:Organization;
+  foaf:name "Marne la Vallée"@fr;
+  mov:codeEtabid "MARN" .
+
+</entities/etats/6e1bbe4bcaa2d0e3ed91d20a7499ceaa04eff84f> a mov:Habilitation;
+  mov:from ppn:030820499;
+  mov:start "???"^^xsd:date;
+  mov:end "2007-12-31"^^xsd:dateTime.
+
+ppn:026403366 a foaf:Organization;
+  foaf:name "Metz"@fr;
+  mov:codeEtabid "METZ" .
+
+</entities/etats/6701871a430f3d20a6640ff410a7d1b999241654> a mov:Habilitation;
+  mov:from ppn:026403366;
+  mov:start "???"^^xsd:date;
+  mov:end "2011-12-31"^^xsd:dateTime.
+
+ppn:026394944 a foaf:Organization;
+  foaf:name "Museum d'histoire naturelle"@fr;
+  mov:codeEtabid "MNHN" .
+
+</entities/etats/1e9c896e6fa66795584e5336160ea410cd59831c> a mov:Habilitation;
+  mov:from ppn:026394944;
+  mov:start "1985-06-27"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:028032837 a foaf:Organization;
+  foaf:name "Montpellier 1"@fr;
+  mov:codeEtabid "MON1" .
+
+</entities/etats/8babbe50f7acdf19aa241a72b1b8683caf1da869> a mov:Habilitation;
+  mov:from ppn:028032837;
+  mov:start "???"^^xsd:date;
+  mov:end "2014-12-31"^^xsd:dateTime.
+
+ppn:026404214 a foaf:Organization;
+  foaf:name "Montpellier 2"@fr;
+  mov:codeEtabid "MON2" .
+
+</entities/etats/64e54c71d799b7dab469664642b1fbcb49b6063c> a mov:Habilitation;
+  mov:from ppn:026404214;
+  mov:start "???"^^xsd:date;
+  mov:end "2014-12-31"^^xsd:dateTime.
+
+ppn:026404702 a foaf:Organization;
+  foaf:name "Montpellier 3"@fr;
+  mov:codeEtabid "MON3" .
+
+</entities/etats/7aed5edbd3d6a05783ccc7f4e51b1afe33bab69a> a mov:Habilitation;
+  mov:from ppn:026404702;
+  mov:start "1970-11-18"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:183316401 a foaf:Organization;
+  foaf:name "Montpellier"@fr;
+  mov:codeEtabid "MONT" .
+
+</entities/etats/74d83f3e851faea69ad31246229c99a920b04219> a mov:Habilitation;
+  mov:from ppn:183316401;
+  mov:start "2015-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:20073511X a foaf:Organization;
+  foaf:name "Ecole nationale supérieure Mines-Télécom Lille Douai"@fr;
+  mov:codeEtabid "MTLD" .
+
+</entities/etats/2aff1d19f789df87a2cc4b41e17522aa0025a85d> a mov:Habilitation;
+  mov:from ppn:20073511X;
+  mov:start "2017-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026403250 a foaf:Organization;
+  foaf:name "Mulhouse"@fr;
+  mov:codeEtabid "MULH" .
+
+</entities/etats/4297b1507bb1c298057c0187a8654f1eac5a4b91> a mov:Habilitation;
+  mov:from ppn:026403250;
+  mov:start "1978-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:155501984 a foaf:Organization;
+  foaf:name "Faculté de droit de nancy"@fr;
+  mov:codeEtabid "NAFD" .
+
+</entities/etats/f7de8eb4823f443b10ce0a1a5d90ac8909b58841> a mov:Habilitation;
+  mov:from ppn:155501984;
+  mov:start "???"^^xsd:date;
+  mov:end "1970-12-22"^^xsd:dateTime.
+
+ppn:15512918X a foaf:Organization;
+  foaf:name "Faculté des lettres de Nancy"@fr;
+  mov:codeEtabid "NAFL" .
+
+</entities/etats/26d4bf53ad021edca18e6cbb9cef442e0c943f5f> a mov:Habilitation;
+  mov:from ppn:15512918X;
+  mov:start "???"^^xsd:date;
+  mov:end "1970-12-22"^^xsd:dateTime.
+
+ppn:171914686 a foaf:Organization;
+  foaf:name "Faculté des sciences de Nancy"@fr;
+  mov:codeEtabid "NAFS" .
+
+</entities/etats/ef1111afb1bc3667ec99f520be43f5aa0bb2fbad> a mov:Habilitation;
+  mov:from ppn:171914686;
+  mov:start "???"^^xsd:date;
+  mov:end "1969-12-31"^^xsd:dateTime.
+
+ppn:026403390 a foaf:Organization;
+  foaf:name "Nancy 1"@fr;
+  mov:codeEtabid "NAN1" .
+
+</entities/etats/f191f6d1c86f557aecccb65e3d93020e6a01c50b> a mov:Habilitation;
+  mov:from ppn:026403390;
+  mov:start "1970-01-01"^^xsd:date;
+  mov:end "2011-12-31"^^xsd:dateTime.
+
+ppn:026403412 a foaf:Organization;
+  foaf:name "Nancy 2"@fr;
+  mov:codeEtabid "NAN2" .
+
+</entities/etats/2cec3198c61b3e8243f6b0b2a2202c9d3869e4d6> a mov:Habilitation;
+  mov:from ppn:026403412;
+  mov:start "1970-12-23"^^xsd:date;
+  mov:end "2011-12-31"^^xsd:dateTime.
+
+ppn:026403447 a foaf:Organization;
+  foaf:name "Nantes"@fr;
+  mov:codeEtabid "NANT" .
+
+</entities/etats/c81bee5fda2dc60b8e24d633f1c8d0feb86e8912> a mov:Habilitation;
+  mov:from ppn:026403447;
+  mov:start "???"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:060121076 a foaf:Organization;
+  foaf:name "Nouvelle Calédonie"@fr;
+  mov:codeEtabid "NCAL" .
+
+</entities/etats/295beac2aa19b8eb7c19e72c5ba8acdaef7f701e> a mov:Habilitation;
+  mov:from ppn:060121076;
+  mov:start "1999-05-31"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026403498 a foaf:Organization;
+  foaf:name "Nice"@fr;
+  mov:codeEtabid "NICE" .
+
+</entities/etats/1f51117e6f6b543bb12f141a722c2741e218c879> a mov:Habilitation;
+  mov:from ppn:026403498;
+  mov:start "1971-06-21"^^xsd:date;
+  mov:end "2016-08-31"^^xsd:dateTime.
+
+ppn:115588701 a foaf:Organization;
+  foaf:name "Nîmes"@fr;
+  mov:codeEtabid "NIME" .
+
+</entities/etats/ed07a299fe22de4cb18034182a2935e6bfe83623> a mov:Habilitation;
+  mov:from ppn:115588701;
+  mov:start "2015-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:190906332 a foaf:Organization;
+  foaf:name "Normandie"@fr;
+  mov:codeEtabid "NORM" .
+
+</entities/etats/1723681f05ed52606ba290c32fe9f69c5aa23bfc> a mov:Habilitation;
+  mov:from ppn:190906332;
+  mov:start "2017-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:117553956 a foaf:Organization;
+  foaf:name "SupAgro - Montpellier"@fr;
+  mov:codeEtabid "NSAM" .
+
+</entities/etats/31c17c5e965a265dd66125a21d22c93c35cc6842> a mov:Habilitation;
+  mov:from ppn:117553956;
+  mov:start "2007-12-31"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026637065 a foaf:Organization;
+  foaf:name "Ecole nationale supérieure d'agronomie de Rennes"@fr;
+  mov:codeEtabid "NSAR" .
+
+</entities/etats/3fbc178e78f26557a4d06443cada6be39005ee6d> a mov:Habilitation;
+  mov:from ppn:026637065;
+  mov:start "???"^^xsd:date;
+  mov:end "2004-01-13"^^xsd:dateTime.
+
+ppn:026550520 a foaf:Organization;
+  foaf:name "Observatoire de Paris"@fr;
+  mov:codeEtabid "OBSP" .
+
+</entities/etats/6c643b201e8c045c28e6ef3d14db7abf1afd7e0e> a mov:Habilitation;
+  mov:from ppn:026550520;
+  mov:start "1985-06-27"^^xsd:date;
+  mov:end "2015-12-31"^^xsd:dateTime.
+
+ppn:157779092 a foaf:Organization;
+  foaf:name "Oniris - Ecole nationale vétérinaire, agroalimentaire et de l’alimentation (Nantes Atlantique)"@fr;
+  mov:codeEtabid "ONIR" .
+
+</entities/etats/ebea48c41986c710ef09422a86e3734f8c91a8a2> a mov:Habilitation;
+  mov:from ppn:157779092;
+  mov:start "2010"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026402971 a foaf:Organization;
+  foaf:name "Orléans"@fr;
+  mov:codeEtabid "ORLE" .
+
+</entities/etats/08c4ad97011983a0041e855d55f11a43feefb961> a mov:Habilitation;
+  mov:from ppn:026402971;
+  mov:start "1966-04-14"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000870246> .
+
+ppn:034526110 a foaf:Organization;
+  foaf:name "Paris (1896-1968)"@fr;
+  mov:codeEtabid "PA00" .
+
+</entities/etats/775a840080bc904a67bfa3940bc9aff3606a8c63> a mov:Habilitation;
+  mov:from ppn:034526110;
+  mov:start "1896-11-19"^^xsd:date;
+  mov:end "1970-12-31"^^xsd:dateTime.
+
+ppn:027361802 a foaf:Organization;
+  foaf:name "Paris 1"@fr;
+  mov:codeEtabid "PA01" .
+
+</entities/etats/be7aa113032fab17e81e09534b07e0834ce63db5> a mov:Habilitation;
+  mov:from ppn:027361802;
+  mov:start "1970-03-21"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026403145 a foaf:Organization;
+  foaf:name "Paris 2"@fr;
+  mov:codeEtabid "PA02" .
+
+</entities/etats/2126c74bd6f813646b3b8fb1e27b4f6d40b9c7bb> a mov:Habilitation;
+  mov:from ppn:026403145;
+  mov:start "1970-03-21"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:027361837 a foaf:Organization;
+  foaf:name "Paris 3"@fr;
+  mov:codeEtabid "PA03" .
+
+</entities/etats/86438bcb9135dfb13bd1c1907fd408e0dd29647e> a mov:Habilitation;
+  mov:from ppn:027361837;
+  mov:start "1970-03-21"^^xsd:date;
+  mov:end "2014-12-31"^^xsd:dateTime.
+
+</entities/etats/09204311407ce65119dd77064033608da6035dae> a mov:Habilitation;
+  mov:from ppn:027361837;
+  mov:start "2019-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026403633 a foaf:Organization;
+  foaf:name "Paris 4"@fr;
+  mov:codeEtabid "PA04" .
+
+</entities/etats/007af1c9976708b59cbfa90214989aee90c23cdc> a mov:Habilitation;
+  mov:from ppn:026403633;
+  mov:start "1970-03-21"^^xsd:date;
+  mov:end "2017-12-31"^^xsd:dateTime.
+
+ppn:026404788 a foaf:Organization;
+  foaf:name "Paris 5"@fr;
+  mov:codeEtabid "PA05" .
+
+</entities/etats/3379f0f203058def4fe01fdbe7f635274f1abb44> a mov:Habilitation;
+  mov:from ppn:026404788;
+  mov:start "1970-03-21"^^xsd:date;
+  mov:end "2014-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000307927> .
+
+ppn:027787087 a foaf:Organization;
+  foaf:name "Paris 6"@fr;
+  mov:codeEtabid "PA06" .
+
+</entities/etats/fa20467bd5120df31a6c157f53280410c0a06dc6> a mov:Habilitation;
+  mov:from ppn:027787087;
+  mov:start "1970-03-21"^^xsd:date;
+  mov:end "2017-12-31"^^xsd:dateTime.
+
+ppn:027542084 a foaf:Organization;
+  foaf:name "Paris 7"@fr;
+  mov:codeEtabid "PA07" .
+
+</entities/etats/cf9d9277e71aeda5bd8f44614dbdcbc9078a61fa> a mov:Habilitation;
+  mov:from ppn:027542084;
+  mov:start "1970-03-21"^^xsd:date;
+  mov:end "2014-12-31"^^xsd:dateTime.
+
+ppn:026403552 a foaf:Organization;
+  foaf:name "Paris 8"@fr;
+  mov:codeEtabid "PA08" .
+
+</entities/etats/9676479cc8168dbec758e5e956d7d3b3a38c9ff1> a mov:Habilitation;
+  mov:from ppn:026403552;
+  mov:start "1970-03-21"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:027787109 a foaf:Organization;
+  foaf:name "Paris 9"@fr;
+  mov:codeEtabid "PA09" .
+
+</entities/etats/ac7a46fe38df065431d11fb48a760f331ed1d012> a mov:Habilitation;
+  mov:from ppn:027787109;
+  mov:start "1970-03-21"^^xsd:date;
+  mov:end "2015-12-31"^^xsd:dateTime.
+
+ppn:026403587 a foaf:Organization;
+  foaf:name "Paris 10"@fr;
+  mov:codeEtabid "PA10" .
+
+</entities/etats/35c6b2b825b0aecf5bd9fcccbcbb4f62c2e1727b> a mov:Habilitation;
+  mov:from ppn:026403587;
+  mov:start "1970-03-21"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026404664 a foaf:Organization;
+  foaf:name "Paris 11"@fr;
+  mov:codeEtabid "PA11" .
+
+</entities/etats/54ab1851015aad7f78f9377ec53eeba4dd5c140a> a mov:Habilitation;
+  mov:from ppn:026404664;
+  mov:start "1970-03-21"^^xsd:date;
+  mov:end "2015-08-31"^^xsd:dateTime.
+
+ppn:028021037 a foaf:Organization;
+  foaf:name "Paris 12"@fr;
+  mov:codeEtabid "PA12" .
+
+</entities/etats/2d6332855e33bb33f47b3f13933411ffaa73d908> a mov:Habilitation;
+  mov:from ppn:028021037;
+  mov:start "1970-03-21"^^xsd:date;
+  mov:end "2007-12-31"^^xsd:dateTime.
+
+ppn:02640463X a foaf:Organization;
+  foaf:name "Paris 13"@fr;
+  mov:codeEtabid "PA13" .
+
+</entities/etats/82a1b53412ce8b71e5557651ed0ae4416e7d3ef0> a mov:Habilitation;
+  mov:from ppn:02640463X;
+  mov:start "1972-01-01"^^xsd:date;
+  mov:end "2014-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000511402> .
+
+</entities/etats/fa241f915728e0528b846238ef2649ec83179a30> a mov:Habilitation;
+  mov:from ppn:02640463X;
+  mov:start "2019-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000511402> .
+
+ppn:026403668 a foaf:Organization;
+  foaf:name "Pau"@fr;
+  mov:codeEtabid "PAUU" .
+
+</entities/etats/7072848f19e47e2966954c9ce8fc6116d3bf87d1> a mov:Habilitation;
+  mov:from ppn:026403668;
+  mov:start "1970-12-17"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026403692 a foaf:Organization;
+  foaf:name "Perpignan"@fr;
+  mov:codeEtabid "PERP" .
+
+</entities/etats/66b5bd3e58f6267f57b633a19e13f98a614e1496> a mov:Habilitation;
+  mov:from ppn:026403692;
+  mov:start "1985-06-27"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000702313> .
+
+ppn:190456396 a foaf:Organization;
+  foaf:name "Paris Est (COMUE)"@fr;
+  mov:codeEtabid "PESC" .
+
+</entities/etats/2ecf9f01aab005f4c0951e37c43ed73077881f35> a mov:Habilitation;
+  mov:from ppn:190456396;
+  mov:start "2015-03-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026403765 a foaf:Organization;
+  foaf:name "Poitiers"@fr;
+  mov:codeEtabid "POIT" .
+
+</entities/etats/3bf3e78c89594952b6c2345a4f31561359af747e> a mov:Habilitation;
+  mov:from ppn:026403765;
+  mov:start "???"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:067101925 a foaf:Organization;
+  foaf:name "Polynésie française"@fr;
+  mov:codeEtabid "POLF" .
+
+</entities/etats/846093468b8c8960cab0efb9613f6483bfe0ca15> a mov:Habilitation;
+  mov:from ppn:067101925;
+  mov:start "1999-05-31"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000394929/> .
+
+ppn:182292592 a foaf:Organization;
+  foaf:name "Paris Sciences et Lettres"@fr;
+  mov:codeEtabid "PSLE" .
+
+</entities/etats/63eb064e37894abdaac976027c36ae8f3dda6f29> a mov:Habilitation;
+  mov:from ppn:182292592;
+  mov:start "2016-01-01"^^xsd:date;
+  mov:end "2019-12-31"^^xsd:dateTime.
+
+ppn:026403838 a foaf:Organization;
+  foaf:name "Reims"@fr;
+  mov:codeEtabid "REIM" .
+
+</entities/etats/0fe3e12cc5b49b14e41cc8751b8b2aa6f2f0bb7d> a mov:Habilitation;
+  mov:from ppn:026403838;
+  mov:start "1967-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000511887> .
+
+ppn:02778715X a foaf:Organization;
+  foaf:name "Rennes 1"@fr;
+  mov:codeEtabid "REN1" .
+
+</entities/etats/02d6b21c2cc003390ae5c1c8c6c9af5866e325c2> a mov:Habilitation;
+  mov:from ppn:02778715X;
+  mov:start "1971-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:054447658 a foaf:Organization;
+  foaf:name "Rennes 2"@fr;
+  mov:codeEtabid "REN2" .
+
+</entities/etats/48e6f49c3ff28b9a0829771a9c7fe4b0dff7314b> a mov:Habilitation;
+  mov:from ppn:054447658;
+  mov:start "1969"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026403919 a foaf:Organization;
+  foaf:name "Rouen"@fr;
+  mov:codeEtabid "ROUE" .
+
+</entities/etats/489f7ca1dae04dff63de82b93b20caa5ced47bd0> a mov:Habilitation;
+  mov:from ppn:026403919;
+  mov:start "1966-07-01"^^xsd:date;
+  mov:end "2016-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000695425> .
+
+ppn:188120777 a foaf:Organization;
+  foaf:name "COMUE Paris Saclay"@fr;
+  mov:codeEtabid "SACL" .
+
+</entities/etats/b5017bf1ec592a570ce3a8686f0d1f072a1bc6e1> a mov:Habilitation;
+  mov:from ppn:188120777;
+  mov:start "2015-09-01"^^xsd:date;
+  mov:end "2019-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000030001707/> .
+
+ppn:221333754 a foaf:Organization;
+  foaf:name "Sorbonne université"@fr;
+  mov:codeEtabid "SORU" .
+
+</entities/etats/fb1ec76cab8eaf44e5cd4d342d57ae01e71efb79> a mov:Habilitation;
+  mov:from ppn:221333754;
+  mov:start "2018-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000034455357> .
+
+ppn:028209966 a foaf:Organization;
+  foaf:name "Saint Etienne"@fr;
+  mov:codeEtabid "STET" .
+
+</entities/etats/c5dccc728ddf93a68482538b427595a0eccf0169> a mov:Habilitation;
+  mov:from ppn:028209966;
+  mov:start "???"^^xsd:date;
+  mov:end "2015-02-28"^^xsd:dateTime.
+
+ppn:026404540 a foaf:Organization;
+  foaf:name "Strasbourg 1"@fr;
+  mov:codeEtabid "STR1" .
+
+</entities/etats/9cdbe0287a95f6634450e68aedd6adb3cb2625bc> a mov:Habilitation;
+  mov:from ppn:026404540;
+  mov:start "1970-01-01"^^xsd:date;
+  mov:end "2008-12-31"^^xsd:dateTime.
+
+ppn:026438763 a foaf:Organization;
+  foaf:name "Strasbourg 2"@fr;
+  mov:codeEtabid "STR2" .
+
+</entities/etats/6cdab99a279e03acba446a147577103f02bdde1a> a mov:Habilitation;
+  mov:from ppn:026438763;
+  mov:start "1970-01-01"^^xsd:date;
+  mov:end "2008-12-31"^^xsd:dateTime.
+
+ppn:026404311 a foaf:Organization;
+  foaf:name "Strasbourg 3"@fr;
+  mov:codeEtabid "STR3" .
+
+</entities/etats/ed9eeaab7aff813cefdce35b17d2793294973a0e> a mov:Habilitation;
+  mov:from ppn:026404311;
+  mov:start "1970-01-01"^^xsd:date;
+  mov:end "2008-12-31"^^xsd:dateTime.
+
+ppn:131056549 a foaf:Organization;
+  foaf:name "Strasbourg"@fr;
+  mov:codeEtabid "STRA" .
+
+</entities/etats/cd52a0b298497e4320a52e8c8a71230fc353f835> a mov:Habilitation;
+  mov:from ppn:131056549;
+  mov:start "2009-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000019341825/> .
+
+ppn:026524031 a foaf:Organization;
+  foaf:name "Supélec"@fr;
+  mov:codeEtabid "SUPL" .
+
+</entities/etats/62ac6d7c4c9f12968813c2e1fc400b72fc880c46> a mov:Habilitation;
+  mov:from ppn:026524031;
+  mov:start "2007-09-13"^^xsd:date;
+  mov:end "2015-08-31"^^xsd:dateTime.
+
+ppn:031235409 a foaf:Organization;
+  foaf:name "Ecole nationale supérieure des Telecom de Bretagne - Brest"@fr;
+  mov:codeEtabid "TELB" .
+
+</entities/etats/969f273413a67d0f91b26e4937739430f908be86> a mov:Habilitation;
+  mov:from ppn:031235409;
+  mov:start "???"^^xsd:date;
+  mov:end "2016-12-31"^^xsd:dateTime.
+
+ppn:030138787 a foaf:Organization;
+  foaf:name "Institut national des télécommunications"@fr;
+  mov:codeEtabid "TELE" .
+
+</entities/etats/82316536adc28768636ec33a5b04e85e59584be0> a mov:Habilitation;
+  mov:from ppn:030138787;
+  mov:start "???"^^xsd:date;
+  mov:end "2015-08-31"^^xsd:dateTime.
+
+ppn:026404354 a foaf:Organization;
+  foaf:name "Toulouse 1"@fr;
+  mov:codeEtabid "TOU1" .
+
+</entities/etats/07f046383908f59aa5f0b5c5eb2d01b75ce268b5> a mov:Habilitation;
+  mov:from ppn:026404354;
+  mov:start "???"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026403994 a foaf:Organization;
+  foaf:name "Toulouse 2"@fr;
+  mov:codeEtabid "TOU2" .
+
+</entities/etats/92ea74cd99c51e7dd82ac4015c7d139c0ae37866> a mov:Habilitation;
+  mov:from ppn:026403994;
+  mov:start "???"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026404672 a foaf:Organization;
+  foaf:name "Toulouse 3"@fr;
+  mov:codeEtabid "TOU3" .
+
+</entities/etats/e10b22908e5dd8673f4f305d909a3a5b162526f2> a mov:Habilitation;
+  mov:from ppn:026404672;
+  mov:start "???"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:031122337 a foaf:Organization;
+  foaf:name "Toulon"@fr;
+  mov:codeEtabid "TOUL" .
+
+</entities/etats/d0626364e719fbff7f46ec77d49c0857c80207ac> a mov:Habilitation;
+  mov:from ppn:031122337;
+  mov:start "1979-02-22"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000336838> .
+
+ppn:026404478 a foaf:Organization;
+  foaf:name "Tours"@fr;
+  mov:codeEtabid "TOUR" .
+
+</entities/etats/0c7bf350650611747290ce965891b7ed6065a2ef> a mov:Habilitation;
+  mov:from ppn:026404478;
+  mov:start "1970"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:050522604 a foaf:Organization;
+  foaf:name "Troyes"@fr;
+  mov:codeEtabid "TROY" .
+
+</entities/etats/189dd6d05892de493aa7190fdf1c680adf46c23c> a mov:Habilitation;
+  mov:from ppn:050522604;
+  mov:start "2000-08-21"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000731419> .
+
+ppn:200716271 a foaf:Organization;
+  foaf:name "Bourgogne Franche-Comté (COMUE)"@fr;
+  mov:codeEtabid "UBFC" .
+
+</entities/etats/c60c29d81d302a15ca4da3c6d9b51bbcf723ae59> a mov:Habilitation;
+  mov:from ppn:200716271;
+  mov:start "2017-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:236453505 a foaf:Organization;
+  foaf:name "Université de Paris"@fr;
+  mov:codeEtabid "UNIP" .
+
+</entities/etats/96551129fd739150e277464096aa4af7ce6b5110> a mov:Habilitation;
+  mov:from ppn:236453505;
+  mov:start "2019-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:19077990X a foaf:Organization;
+  foaf:name "Sorbonne Paris Cité"@fr;
+  mov:codeEtabid "USPC" .
+
+</entities/etats/cb583f4071523200018820258e812d74632aac2d> a mov:Habilitation;
+  mov:from ppn:19077990X;
+  mov:start "2015-01-01"^^xsd:date;
+  mov:end "2019-08-31"^^xsd:dateTime.
+
+ppn:026404079 a foaf:Organization;
+  foaf:name "Valenciennes"@fr;
+  mov:codeEtabid "VALE" .
+
+</entities/etats/eeeec2fbfd2b651e18fec2a0bb03e2d7aa2389f3> a mov:Habilitation;
+  mov:from ppn:026404079;
+  mov:start "1979-01-01"^^xsd:date;
+  mov:end "2019-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000519206> .
+
+ppn:03082057X a foaf:Organization;
+  foaf:name "Versailles St Quentin en Yvelines"@fr;
+  mov:codeEtabid "VERS" .
+
+</entities/etats/6ebccd10239fb8232b20b0ff6f4eb2b20fdfa3d8> a mov:Habilitation;
+  mov:from ppn:03082057X;
+  mov:start "???"^^xsd:date;
+  mov:end "2015-08-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000720553> .
+
+ppn:188204024 a foaf:Organization;
+  foaf:name "Guyane"@fr;
+  mov:codeEtabid "YANE" .
+
+</entities/etats/4bce658acda319c1354b6aaa0c7b7612f2dfd3bf> a mov:Habilitation;
+  mov:from ppn:188204024;
+  mov:start "2015-03-16"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:139408088 a foaf:Organization;
+  foaf:name "AgroParisTech"@fr;
+  mov:codeEtabid "AGPT" .
+
+</entities/etats/f866fe1d0fd3695795985f7e68647322c998a9e1> a mov:Delegation;
+  mov:from ppn:139408088;
+  mov:to ppn:188120777;
+  mov:start "2015-09-01"^^xsd:date;
+  mov:end "2019-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000245929/> .
+
+ppn:068859813 a foaf:Organization;
+  foaf:name "Belfort Montbéliard"@fr;
+  mov:codeEtabid "BELF" .
+
+</entities/etats/af24445771ae554cfb2980e798810ac88b641cd9> a mov:Delegation;
+  mov:from ppn:068859813;
+  mov:to ppn:200716271;
+  mov:start "2017-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000209137/> .
+
+ppn:026403188 a foaf:Organization;
+  foaf:name "Besançon"@fr;
+  mov:codeEtabid "BESA" .
+
+</entities/etats/c985d3055b89f1353d9a8bc4d013566e14161da9> a mov:Delegation;
+  mov:from ppn:026403188;
+  mov:to ppn:200716271;
+  mov:start "2017-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026403064 a foaf:Organization;
+  foaf:name "Caen"@fr;
+  mov:codeEtabid "CAEN" .
+
+</entities/etats/e194e14ba4162e8153ab78745d1be95745c5f5f3> a mov:Delegation;
+  mov:from ppn:026403064;
+  mov:to ppn:190906332;
+  mov:start "2017-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026369125 a foaf:Organization;
+  foaf:name "Chambéry"@fr;
+  mov:codeEtabid "CHAM" .
+
+</entities/etats/f40fdf4e272c2bc9072e631f043f82a4fc89ba8d> a mov:Delegation;
+  mov:from ppn:026369125;
+  mov:to ppn:030327202;
+  mov:start "2010-11-01"^^xsd:date;
+  mov:end "2014-12-31"^^xsd:dateTime.
+
+</entities/etats/4f828634eff118e0278e4a6b155685feb25eb887> a mov:Delegation;
+  mov:from ppn:026369125;
+  mov:to ppn:184668794;
+  mov:start "2015-01-01"^^xsd:date;
+  mov:end "2019-08-31"^^xsd:dateTime.
+
+ppn:028237080 a foaf:Organization;
+  foaf:name "Ecole normale supérieure - Cachan"@fr;
+  mov:codeEtabid "DENS" .
+
+</entities/etats/def0a1c6179e23e7f0c0cc54897adbc7181262c9> a mov:Delegation;
+  mov:from ppn:028237080;
+  mov:to ppn:188120777;
+  mov:start "2015-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:02819005X a foaf:Organization;
+  foaf:name "Dijon"@fr;
+  mov:codeEtabid "DIJO" .
+
+</entities/etats/92487e1e48330000fc82e4fdfa28e1703bcc02ae> a mov:Delegation;
+  mov:from ppn:02819005X;
+  mov:to ppn:200716271;
+  mov:start "2017-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:027960250 a foaf:Organization;
+  foaf:name "Ecole centrale des arts et manufactures de Paris"@fr;
+  mov:codeEtabid "ECAP" .
+
+</entities/etats/80606a5f531b009aa480e2757eb881f4b6b35d76> a mov:Delegation;
+  mov:from ppn:027960250;
+  mov:to ppn:188120777;
+  mov:start "2015-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:033894221 a foaf:Organization;
+  foaf:name "Ecole centrale de Lyon"@fr;
+  mov:codeEtabid "ECDL" .
+
+</entities/etats/1874045836bbc00712635a0f919adad369fa0ec2> a mov:Delegation;
+  mov:from ppn:033894221;
+  mov:to ppn:190915757;
+  mov:start "2015-03-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:027321118 a foaf:Organization;
+  foaf:name "Ecole des hautes études commerciales"@fr;
+  mov:codeEtabid "EHEC" .
+
+</entities/etats/ff9d352b2ab7daa9dac08222e446a50995f63f2e> a mov:Delegation;
+  mov:from ppn:027321118;
+  mov:to ppn:188120777;
+  mov:start "2015-09-01"^^xsd:date;
+  mov:end "2019-08-31"^^xsd:dateTime.
+
+ppn:035022116 a foaf:Organization;
+  foaf:name "Ecole nationale des Mines d'Albi-Carmaux"@fr;
+  mov:codeEtabid "EMAC" .
+
+</entities/etats/6588e884b1ddf32b1b7493c7fc538b4b2aafa13f> a mov:Delegation;
+  mov:from ppn:035022116;
+  mov:start "2012-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:032486111 a foaf:Organization;
+  foaf:name "Ecole des Mines d'Alès"@fr;
+  mov:codeEtabid "EMAL" .
+
+</entities/etats/b7dec9eaff36c7e4f6a58bced1b8c6dcf9820ba3> a mov:Delegation;
+  mov:from ppn:032486111;
+  mov:start "2012-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:028028694 a foaf:Organization;
+  foaf:name "Ecole nationale supérieure des mines - Saint-Etienne"@fr;
+  mov:codeEtabid "EMSE" .
+
+</entities/etats/68c36e2ca5430b17136f4d00843a5886ff4ad2c1> a mov:Delegation;
+  mov:from ppn:028028694;
+  mov:to ppn:190915757;
+  mov:start "2015-03-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:02637515X a foaf:Organization;
+  foaf:name "Ecole nationale supérieure d'arts et métiers"@fr;
+  mov:codeEtabid "ENAM" .
+
+</entities/etats/37e9815b453e5232023c3c2605c3beb03c2f7821> a mov:Delegation;
+  mov:from ppn:02637515X;
+  mov:to ppn:238277429;
+  mov:start "2020-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:030267676 a foaf:Organization;
+  foaf:name "Ecole nationale d'ingénieurs de saint-Etienne"@fr;
+  mov:codeEtabid "ENIS" .
+
+</entities/etats/f27f931d91ac0e5d4263c723343e1cbab633e8e1> a mov:Delegation;
+  mov:from ppn:030267676;
+  mov:to ppn:190915757;
+  mov:start "2015-03-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026375249 a foaf:Organization;
+  foaf:name "Ecole nationale supérieure des mines - Paris"@fr;
+  mov:codeEtabid "ENMP" .
+
+</entities/etats/eaa29c78a0155ded0c44c27b4d58de00035765d2> a mov:Delegation;
+  mov:from ppn:026375249;
+  mov:to ppn:182292592;
+  mov:start "2016-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:149154992 a foaf:Organization;
+  foaf:name "École normale supérieure de Lyon"@fr;
+  mov:codeEtabid "ENSL" .
+
+</entities/etats/261208603d9f6ff051bf8ada873d0fa967314ab0> a mov:Delegation;
+  mov:from ppn:149154992;
+  mov:to ppn:190915757;
+  mov:start "2015-03-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026375273 a foaf:Organization;
+  foaf:name "Ecole nationale supérieure des télécommunications"@fr;
+  mov:codeEtabid "ENST" .
+
+</entities/etats/8fb770ccf6374262e19ef17a0fd7ef8f0027531d> a mov:Delegation;
+  mov:from ppn:026375273;
+  mov:to ppn:188120777;
+  mov:start "2015-09-01"^^xsd:date;
+  mov:end "2019-08-31"^^xsd:dateTime.
+
+</entities/etats/eda5ce4de3997d0a53969efe3f1c898a0cc839e8> a mov:Delegation;
+  mov:from ppn:026375273;
+  mov:to ppn:238327159;
+  mov:start "2019-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:031738419 a foaf:Organization;
+  foaf:name "Ecole normale supérieure- Paris (rue d'Ulm)"@fr;
+  mov:codeEtabid "ENSU" .
+
+</entities/etats/01bb1ceec18c77e9eb69b7b782e2773b8dcfde7f> a mov:Delegation;
+  mov:from ppn:031738419;
+  mov:to ppn:182292592;
+  mov:start "2016-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:027941426 a foaf:Organization;
+  foaf:name "Ecole nationale des travaux publics"@fr;
+  mov:codeEtabid "ENTP" .
+
+</entities/etats/ebe708afe72e01b4e161dd14cd34fb659aaf0876> a mov:Delegation;
+  mov:from ppn:027941426;
+  mov:to ppn:190915757;
+  mov:start "2015-03-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026375478 a foaf:Organization;
+  foaf:name "Ecole pratique des hautes études"@fr;
+  mov:codeEtabid "EPHE" .
+
+</entities/etats/50f82d977cf9e8500454ff146c2a0ea4f0136116> a mov:Delegation;
+  mov:from ppn:026375478;
+  mov:to ppn:182292592;
+  mov:start "2017-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:027309320 a foaf:Organization;
+  foaf:name "Ecole polytechnique"@fr;
+  mov:codeEtabid "EPXX" .
+
+</entities/etats/1ff7f58827448544fa57e6eea494275b808bdee3> a mov:Delegation;
+  mov:from ppn:027309320;
+  mov:to ppn:188120777;
+  mov:start "2015-09-01"^^xsd:date;
+  mov:end "2019-08-31"^^xsd:dateTime.
+
+</entities/etats/5e9bec8b6af653ae42260636eefb8b8522c8c872> a mov:Delegation;
+  mov:from ppn:027309320;
+  mov:to ppn:238327159;
+  mov:start "2019-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:028029429 a foaf:Organization;
+  foaf:name "Ecole supérieure des sciences économiques et commerciales"@fr;
+  mov:codeEtabid "ESEC" .
+
+</entities/etats/e6fe72fd97c76d7b365e88ce46b114e228ca9a4a> a mov:Delegation;
+  mov:from ppn:028029429;
+  mov:start "2015-03-01 ???"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:028139577 a foaf:Organization;
+  foaf:name "Ecole nationale supérieure des techniques avancées"@fr;
+  mov:codeEtabid "ESTA" .
+
+</entities/etats/876f1f3072f6515e2816469c63d66c4eb374767f> a mov:Delegation;
+  mov:from ppn:028139577;
+  mov:to ppn:188120777;
+  mov:start "2015-09-01"^^xsd:date;
+  mov:end "2019-08-31"^^xsd:dateTime.
+
+</entities/etats/8377f3e664c911d0233bb148d943c2e7bbb80086> a mov:Delegation;
+  mov:from ppn:028139577;
+  mov:to ppn:238327159;
+  mov:start "2019-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:030820529 a foaf:Organization;
+  foaf:name "Evry Val d'Essonne"@fr;
+  mov:codeEtabid "EVRY" .
+
+</entities/etats/0f8b8ed70fad93d214cd7474e6ea4018e1120c3f> a mov:Delegation;
+  mov:from ppn:030820529;
+  mov:to ppn:188120777;
+  mov:start "2015-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000539149> .
+
+ppn:026569477 a foaf:Organization;
+  foaf:name "Institut de physique du globe"@fr;
+  mov:codeEtabid "GLOB" .
+
+</entities/etats/4260c2fe2698e261f94da0512c0abbb9bb32d530> a mov:Delegation;
+  mov:from ppn:026569477;
+  mov:to ppn:19077990X;
+  mov:start "2015-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026388715 a foaf:Organization;
+  foaf:name "Institut national des langues et civilisation orientales (INALCO)"@fr;
+  mov:codeEtabid "INAL" .
+
+</entities/etats/f9b01d436f41eeac6a642d54edb05f438c82a7e0> a mov:Delegation;
+  mov:from ppn:026388715;
+  mov:to ppn:19077990X;
+  mov:start "2015-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026388804 a foaf:Organization;
+  foaf:name "Institut national polytechnique - Grenoble"@fr;
+  mov:codeEtabid "INPG" .
+
+</entities/etats/07ad9c3fb4d519a843f16f1d49069fd441d219f1> a mov:Delegation;
+  mov:from ppn:026388804;
+  mov:to ppn:030327202;
+  mov:start "2010-11-01"^^xsd:date;
+  mov:end "2014-12-31"^^xsd:dateTime.
+
+ppn:026388812 a foaf:Organization;
+  foaf:name "Institut national polytechnique - Lorraine"@fr;
+  mov:codeEtabid "INPL" .
+
+</entities/etats/b8cda0d1283a3350a8a3ae77d1e69c549eb7359b> a mov:Delegation;
+  mov:from ppn:026388812;
+  mov:to ppn:157040569;
+  mov:start "2012-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:110047702 a foaf:Organization;
+  foaf:name "Institut d'optique théorique et appliquée"@fr;
+  mov:codeEtabid "IOTA" .
+
+</entities/etats/f62e90217aa014c94723e5730e6c32ace96a796b> a mov:Delegation;
+  mov:from ppn:110047702;
+  mov:to ppn:188120777;
+  mov:start "2015-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:052444724 a foaf:Organization;
+  foaf:name "Institut national des sciences appliquées - Lyon"@fr;
+  mov:codeEtabid "ISAL" .
+
+</entities/etats/ca8afcdbc4d5ecdc1efa6a4b22a9a19e7a669990> a mov:Delegation;
+  mov:from ppn:052444724;
+  mov:to ppn:190915757;
+  mov:start "2015-03-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:033364346 a foaf:Organization;
+  foaf:name "Institut national des sciences appliquées - Rouen"@fr;
+  mov:codeEtabid "ISAM" .
+
+</entities/etats/657bc327b48049534235ec978832dcf01dbe3bb9> a mov:Delegation;
+  mov:from ppn:033364346;
+  mov:to ppn:190906332;
+  mov:start "2017-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:031308570 a foaf:Organization;
+  foaf:name "Le Havre"@fr;
+  mov:codeEtabid "LEHA" .
+
+</entities/etats/151a04bd4252c8bd9c3b01b451f81a623c96ea76> a mov:Delegation;
+  mov:from ppn:031308570;
+  mov:to ppn:190906332;
+  mov:start "2017-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026402823 a foaf:Organization;
+  foaf:name "Lyon 1"@fr;
+  mov:codeEtabid "LYO1" .
+
+</entities/etats/71eef024a7ee861ae671270dcb7d04927c31b969> a mov:Delegation;
+  mov:from ppn:026402823;
+  mov:to ppn:190915757;
+  mov:start "2015-03-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:02640334X a foaf:Organization;
+  foaf:name "Lyon 2"@fr;
+  mov:codeEtabid "LYO2" .
+
+</entities/etats/1e04e2074dc03c90a3b2e57c13d9d936ab0dbd15> a mov:Delegation;
+  mov:from ppn:02640334X;
+  mov:to ppn:190915757;
+  mov:start "2015-03-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:026404494 a foaf:Organization;
+  foaf:name "Lyon 3"@fr;
+  mov:codeEtabid "LYO3" .
+
+</entities/etats/333c46a06d22bea83f777dfc24c11266bcb9684f> a mov:Delegation;
+  mov:from ppn:026404494;
+  mov:to ppn:190915757;
+  mov:start "2015-03-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:030820499 a foaf:Organization;
+  foaf:name "Marne la Vallée"@fr;
+  mov:codeEtabid "MARN" .
+
+</entities/etats/3ed90c033903903d6252d4e4c847dec2ccee83fe> a mov:Delegation;
+  mov:from ppn:030820499;
+  mov:to ppn:121855465;
+  mov:start "2008-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+</entities/etats/079bdae16f7011a1d7c314a8fe1a24145c7d463b> a mov:Delegation;
+  mov:from ppn:026403498;
+  mov:to ppn:185433669;
+  mov:start "2016-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+</entities/etats/dfbf652a83c770c14c322f4e5bb0f16bebd62b02> a mov:Delegation;
+  mov:from ppn:026550520;
+  mov:to ppn:182292592;
+  mov:start "2016-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+</entities/etats/707025107880b6b0082b4c493a0eee1dc70cdd17> a mov:Delegation;
+  mov:from ppn:027361837;
+  mov:to ppn:19077990X;
+  mov:start "2015-01-01"^^xsd:date;
+  mov:end "2019-08-31"^^xsd:dateTime.
+
+</entities/etats/f00077cbcba8f5cc9613b487c5ec2683ab09594f> a mov:Delegation;
+  mov:from ppn:026404788;
+  mov:to ppn:19077990X;
+  mov:start "2015-01-01"^^xsd:date;
+  mov:end "2019-08-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000307927> .
+
+</entities/etats/c162ef729f5afa97ed4f3afa9c6977b4f93aaf42> a mov:Delegation;
+  mov:from ppn:026404788;
+  mov:start "2019-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000307927> .
+
+</entities/etats/b7fbbbc2bb31fc61aa5f2f44f743ccbf2a07015c> a mov:Delegation;
+  mov:from ppn:027542084;
+  mov:to ppn:19077990X;
+  mov:start "2015-01-01"^^xsd:date;
+  mov:end "2019-08-31"^^xsd:dateTime.
+
+</entities/etats/a4dbdaa47560e8c85707df9af48818d738545684> a mov:Delegation;
+  mov:from ppn:027787109;
+  mov:to ppn:182292592;
+  mov:start "2016-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+</entities/etats/7a843fa8aa8154f62dda2d85baf9a425647ed8c6> a mov:Delegation;
+  mov:from ppn:026404664;
+  mov:to ppn:188120777;
+  mov:start "2015-09-01"^^xsd:date;
+  mov:end "2019-12-31"^^xsd:dateTime.
+
+</entities/etats/399ef90da3fc68fb9d4249071d2aa0ed07bf0d0d> a mov:Delegation;
+  mov:from ppn:028021037;
+  mov:to ppn:121855465;
+  mov:start "2008-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+</entities/etats/ecd15dc43cfc0b57ba5b84d530449e22311d4cb7> a mov:Delegation;
+  mov:from ppn:02640463X;
+  mov:to ppn:19077990X;
+  mov:start "2015-01-01"^^xsd:date;
+  mov:end "2019-08-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000511402> .
+
+ppn:121855465 a foaf:Organization;
+  foaf:name "Paris Est (PRES)"@fr;
+  mov:codeEtabid "PEST" .
+
+</entities/etats/936d761d3819dba6e3b9f1a869706d245f7dca3c> a mov:Delegation;
+  mov:from ppn:121855465;
+  mov:to ppn:190456396;
+  mov:start "2015-03-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+</entities/etats/94383d107af24c56a7dd745db9567ee396163ada> a mov:Delegation;
+  mov:from ppn:026403919;
+  mov:to ppn:190906332;
+  mov:start "2017-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000695425> .
+
+</entities/etats/94d84c4b52024ea737155b82e851379bfdcbaa7b> a mov:Delegation;
+  mov:from ppn:028209966;
+  mov:to ppn:190915757;
+  mov:start "2015-03-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+</entities/etats/cd58ebe20d89ad0c0a8422d758ad79442aadb9e5> a mov:Delegation;
+  mov:from ppn:026524031;
+  mov:to ppn:188120777;
+  mov:start "2015-09-01"^^xsd:date;
+  mov:end "2019-12-31"^^xsd:dateTime.
+
+</entities/etats/4cd19ff29457bebd6a7691b21d5d8362a894cd5e> a mov:Delegation;
+  mov:from ppn:030138787;
+  mov:to ppn:188120777;
+  mov:start "2015-09-01"^^xsd:date;
+  mov:end "2019-12-31"^^xsd:dateTime.
+
+</entities/etats/a48a32ba5817c9760cf06ad0257c60777b6b542a> a mov:Delegation;
+  mov:from ppn:030138787;
+  mov:to ppn:238327159;
+  mov:start "2019-09-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+</entities/etats/875d80aa90db608966f4fd1d5c1b1d879ee84d85> a mov:Delegation;
+  mov:from ppn:03082057X;
+  mov:to ppn:188120777;
+  mov:start "2015-09-01"^^xsd:date;
+  mov:end "2019-12-31"^^xsd:dateTime;
+  mov:legalBase <https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000720553> .
+
+</entities/etats/974b698a4d7322da9623f3f64690d67afae0a4da> a mov:Delegation;
+  mov:from ppn:139408088;
+  mov:to ppn:241345251;
+  mov:start "2020-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:notes "Conserve l’habilitation pour certaines ED";
+  mov:legalBase <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000245929/> .
+
+ppn:027404978 a foaf:Organization;
+  foaf:name "Conservatoire national des arts et métiers"@fr;
+  mov:codeEtabid "CNAM" .
+
+</entities/etats/2aeda2aab66103ba22a5b7ad330cec222c729b7d> a mov:Delegation;
+  mov:from ppn:027404978;
+  mov:to ppn:238277429;
+  mov:start "2020-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:notes "ED EDITE".
+
+ppn:121855465 a foaf:Organization;
+  foaf:name "Paris Est (PRES)"@fr;
+  mov:codeEtabid "PEST" .
+
+</entities/etats/6b95551faddcb4dad7e2ce768ef91c40c7879572> a mov:Habilitation;
+  mov:from ppn:121855465;
+  mov:start "2007-03-21"^^xsd:date;
+  mov:end "2015-02-28"^^xsd:dateTime;
+  mov:notes "Sauf ED EDVE (ENPC)".
+
+ppn:026375060 a foaf:Organization;
+  foaf:name "Ecole nationale des ponts et chaussées"@fr;
+  mov:codeEtabid "ENPC" .
+
+</entities/etats/ae555b53b4dfaf9b1b97cc0c67d2c97f6a051afe> a mov:Delegation;
+  mov:from ppn:026375060;
+  mov:to ppn:121855465;
+  mov:start "2008-01-01"^^xsd:date;
+  mov:end "2015-03-01"^^xsd:dateTime;
+  mov:notes "ED Vie et Environnement (EDVE)".
+
+</entities/etats/6cb8520b55839b39cb1ccdd3a6c73376499785df> a mov:Delegation;
+  mov:from ppn:026375060;
+  mov:to ppn:190456396;
+  mov:start "2015-03-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:241345251 a foaf:Organization;
+  foaf:name "Université Paris-Saclay"@fr;
+  mov:codeEtabid "UPAS" .
+
+</entities/etats/d4c5e2d80197233f860083aa387102fb18b6e847> a mov:Habilitation;
+  mov:from ppn:241345251;
+  mov:start "2020-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime;
+  mov:notes "N’a pas l’habilitation pour certaines ED d’AGPT".
+
+ppn:242335675 a foaf:Organization;
+  foaf:name "Université Polytechnique Hauts-de-France"@fr;
+  mov:codeEtabid "UPHF" .
+
+</entities/etats/62ff58c2dfd412f18da059d442ddce0e7c99d0cd> a mov:Habilitation;
+  mov:from ppn:242335675;
+  mov:start "2019-09-09"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
+
+ppn:241597595 a foaf:Organization;
+  foaf:name "Université Paris sciences et lettres"@fr;
+  mov:codeEtabid "UPSL" .
+
+</entities/etats/e419ecd44472d4646f1e9f4b7a680980f27a921a> a mov:Habilitation;
+  mov:from ppn:241597595;
+  mov:start "2020-01-01"^^xsd:date;
+  mov:end "9999-12-31"^^xsd:dateTime.
