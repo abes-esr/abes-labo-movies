@@ -1,0 +1,144 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://www.abes.fr/vocabularies/movies#> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@base 			<http://www.abes.fr/vocabularies/movies#> .
+
+<http://www.abes.fr/vocabularies/movies#> rdf:type owl:Ontology ;
+                                          dc:title "Movies"@en; 
+                                          dc:description "undefined"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 14 ###
+#  --------------------------- Property 0------------------------- 
+:codeEtabid rdf:type owl:DatatypeProperty ;
+            rdfs:label "codeEtabid"@IRI-based; 
+            rdfs:label "codeEtabid"@en; 
+            rdfs:domain foaf:Organization;
+            rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 1------------------------- 
+:signataire rdf:type owl:ObjectProperty ;
+            rdfs:label "signataire"@IRI-based; 
+            rdfs:label "signataire"@en; 
+            rdfs:domain :ContratRatachement;
+            rdfs:range foaf:Organization . 
+#  --------------------------- Property 2------------------------- 
+foaf:name rdf:type owl:DatatypeProperty ;
+          rdfs:label "name"@IRI-based; 
+          rdfs:label "foaf:name"@iri-based; 
+          rdfs:label "foaf:name"@en; 
+          rdfs:domain foaf:Organization;
+          rdfs:range xsd:string . 
+#  --------------------------- Property 3------------------------- 
+<http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:DatatypeProperty ;
+                                                rdfs:label "prefLabel"@IRI-based; 
+                                                rdfs:label "skos:prefLabel"@iri-based; 
+                                                rdfs:label "skos:prefLabel"@en; 
+                                                rdfs:domain foaf:Organization;
+                                                rdfs:range xsd:string . 
+#  --------------------------- Property 4------------------------- 
+<http://www.w3.org/2004/02/skos/core#altLabel> rdf:type owl:DatatypeProperty ;
+                                               rdfs:label "altLabel"@IRI-based; 
+                                               rdfs:label "skos:altLabel"@iri-based; 
+                                               rdfs:label "skos:altLabel"@en; 
+                                               rdfs:domain foaf:Organization;
+                                               rdfs:range xsd:string . 
+#  --------------------------- Property 5------------------------- 
+<http://www.wikidata.org/prop/direct/P1454> rdf:type owl:DatatypeProperty ;
+                                            rdfs:label "P1454"@IRI-based; 
+                                            rdfs:label "wdt:P1454"@iri-based; 
+                                            rdfs:label "wdt:P1454"@en; 
+                                            rdfs:domain foaf:Organization;
+                                            rdfs:range xsd:string . 
+#  --------------------------- Property 6------------------------- 
+:from rdf:type owl:ObjectProperty ;
+      rdfs:label "from"@IRI-based; 
+      rdfs:label "from"@en; 
+      rdfs:domain :Evenement;
+      rdfs:range foaf:Organization . 
+#  --------------------------- Property 7------------------------- 
+:beneficiaire rdf:type owl:ObjectProperty ;
+              rdfs:label "beneficiaire"@IRI-based; 
+              rdfs:label "beneficiaire"@en; 
+              rdfs:domain :ContratRatachement;
+              rdfs:range foaf:Organization . 
+#  --------------------------- Property 8------------------------- 
+:contrat rdf:type owl:ObjectProperty ;
+         rdfs:label "contrat"@IRI-based; 
+         rdfs:label "contrat"@en; 
+         rdfs:domain :ContratRatachement;
+         rdfs:range :Contrat . 
+#  --------------------------- Property 9------------------------- 
+:to rdf:type owl:ObjectProperty ;
+    rdfs:label "to"@IRI-based; 
+    rdfs:label "to"@en; 
+    rdfs:domain :Evenement;
+    rdfs:range foaf:Organization . 
+#  --------------------------- Property 10------------------------- 
+:start rdf:type owl:DatatypeProperty ;
+       rdfs:label "start"@en; 
+       rdfs:domain :Evenement;
+       rdfs:range xsd:string . 
+#  --------------------------- Property 11------------------------- 
+:end rdf:type owl:DatatypeProperty ;
+     rdfs:label "end"@en; 
+     rdfs:domain :Evenement;
+     rdfs:range xsd:string . 
+#  --------------------------- Property 12------------------------- 
+:rattachementContratStart rdf:type owl:DatatypeProperty ;
+                          rdfs:label "rattachementContratStart"@en; 
+                          rdfs:domain :ContratRatachement;
+                          rdfs:range xsd:string . 
+#  --------------------------- Property 13------------------------- 
+:rattachementContratEnd rdf:type owl:DatatypeProperty ;
+                        rdfs:label "rattachementContratEnd"@en; 
+                        rdfs:domain :ContratRatachement;
+                        rdfs:range xsd:string . 
+###  Class Definitions (Number of Classes) 9 ###
+#  --------------------------- Class  0------------------------- 
+foaf:Organization rdf:type owl:Class; 
+                  rdfs:label "foaf:Organization"@en . 
+#  --------------------------- Class  1------------------------- 
+:Evenement rdf:type owl:Class; 
+           rdfs:label "Etat"@en . 
+#  --------------------------- Class  2------------------------- 
+:Habilitation rdf:type owl:Class; 
+              rdfs:subClassOf :EtatDoctoral ;
+              rdfs:label "Habilitation"@IRI-based; 
+              rdfs:label "Habilitation"@en . 
+#  --------------------------- Class  3------------------------- 
+:Contrat rdf:type owl:Class; 
+         rdfs:label "Class38"@IRI-based; 
+         rdfs:label "Contrat"@en . 
+#  --------------------------- Class  4------------------------- 
+:EtatDoctoral rdf:type owl:Class; 
+              rdfs:subClassOf :Evenement ;
+              rdfs:label "EtatDoctoral"@IRI-based; 
+              rdfs:label "EtatDoctoral"@en . 
+#  --------------------------- Class  5------------------------- 
+:Succession rdf:type owl:Class; 
+            rdfs:subClassOf :Evenement ;
+            rdfs:label "Succession"@IRI-based; 
+            rdfs:label "Succession"@en . 
+#  --------------------------- Class  6------------------------- 
+:Existence rdf:type owl:Class; 
+           rdfs:subClassOf :Evenement ;
+           rdfs:label "Existence"@IRI-based; 
+           rdfs:label "Existence"@en . 
+#  --------------------------- Class  7------------------------- 
+:ContratRatachement rdf:type owl:Class; 
+                    rdfs:label "Contrat"@IRI-based; 
+                    rdfs:label "ContratRatachement"@en . 
+#  --------------------------- Class  8------------------------- 
+:Delegation rdf:type owl:Class; 
+            rdfs:subClassOf :EtatDoctoral ;
+            rdfs:label "Delegation"@IRI-based; 
+            rdfs:label "Delegation"@en . 
