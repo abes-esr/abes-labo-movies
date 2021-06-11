@@ -1,0 +1,48 @@
+@base <http://www.abes.fr/mapping-paysage-idref/> .
+@prefix paysage: <http://paysage.mesri.fr/structures/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ppn: <http://www.abes.fr/entities/organizations/ppn/> .
+
+paysage:XDl91 owl:sameAs ppn:026603136 .
+
+paysage:RDy6Q owl:sameAs ppn:185433669 .
+
+paysage:3itX6 owl:sameAs ppn:028032829 .
+
+paysage:n1E6T owl:sameAs ppn:026403102 .
+
+paysage:kFcnq owl:sameAs ppn:081711883 .
+
+paysage:AdtQe owl:sameAs ppn:077755138 .
+
+paysage:j5bS4 owl:sameAs ppn:17864577X .
+
+paysage:QXnpG owl:sameAs ppn:026375478 .
+
+paysage:2Nnrv owl:sameAs ppn:159330114 .
+
+paysage:VrYMi owl:sameAs ppn:02640432X .
+
+paysage:hB4QE owl:sameAs ppn:184668794 .
+
+paysage:EPci7 owl:sameAs ppn:238277429 .
+
+paysage:w75ig owl:sameAs ppn:196213428 .
+
+paysage:dBV2u owl:sameAs ppn:026388812 .
+
+paysage:QtZkX owl:sameAs ppn:110047702 .
+
+paysage:kYR50 owl:sameAs ppn:238327159 .
+
+paysage:4JIV8 owl:sameAs ppn:026403366 .
+
+paysage:9ZF2M owl:sameAs ppn:028032837 .
+
+paysage:uv3yv owl:sameAs ppn:117553956 .
+
+paysage:G2qA7%20 owl:sameAs ppn:241345251 .
+
+paysage:EW53M owl:sameAs ppn:242335675 .
+
+paysage:PpsCQ owl:sameAs ppn:241597595 .
