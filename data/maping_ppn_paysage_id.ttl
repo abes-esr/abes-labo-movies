@@ -41,7 +41,7 @@ paysage:9ZF2M owl:sameAs ppn:028032837 .
 
 paysage:uv3yv owl:sameAs ppn:117553956 .
 
-paysage:G2qA7%20 owl:sameAs ppn:241345251 .
+paysage:G2qA7 owl:sameAs ppn:241345251 .
 
 paysage:EW53M owl:sameAs ppn:242335675 .
 
