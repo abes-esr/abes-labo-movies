@@ -170,3 +170,7 @@ Pour stopper le conteneur docker :
 ```
 docker-compose stop
 ```
+
+## Ontologie Movies
+
+[L'ontologie Movies](./data/movies.ttl) peut être visualisée sur [VisualDataWeb](http://www.visualdataweb.de/webvowl/#iri=https://raw.githubusercontent.com/abes-esr/abes-labo-movies/main/data/movies.ttl).
