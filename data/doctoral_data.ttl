@@ -497,7 +497,7 @@ ppn:026375052 a foaf:Organization;
 </entities/etats/6229bd3c62c16540d0473ccb94c244596e4e8549> a mov:Habilitation;
   mov:from ppn:026375052;
   mov:start "2010-01-01"^^xsd:date;
-  mov:end "9999-12-31"^^xsd:dateTime .
+  mov:end "2020-01-31"^^xsd:dateTime .
 
 ppn:081711883 a foaf:Organization;
   foaf:name "Ecole nationale supérieure de chimie de Rennes"@fr;
